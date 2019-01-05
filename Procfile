@@ -1,1 +1,1 @@
-web: python loader.py
+web: python main.py

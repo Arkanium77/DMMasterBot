@@ -4,11 +4,14 @@ from telebot import apihelper
 from dicelogic import diceMaster
 import time
 import re
+from flask import Flask, request
 
 token = os.getenv("TOKEN")
 bot = telebot.TeleBot(token)
 
 diceR = "[0-9]*d(2|C|c|3|F|4|6|8|10|12|20|D|d|100)[0-9^(+\-)]*"
+
+server = Flask(__name__)
 
 
 @bot.message_handler(regexp=diceR)
@@ -75,11 +78,24 @@ def echo_all(message):
 
 #apihelper.proxy = {'https': 'https://67.205.146.54:80'}
 # apihelper.proxy = {'https': 'socks5://swcbbabh:aYEbh6q5gQ@bb8.vivalaresistance.info:3306'}
+@server.route('/' + token, methods=['POST'])
+def getMessage():
+    bot.process_new_updates([telebot.types.Update.de_json(request.stream.read().decode("utf-8"))])
+    return "!", 200
+
+@server.route("/")
+def webhook():
+    bot.remove_webhook()
+    bot.set_webhook(url='https://dmmasterbot.herokuapp.com/' + token)
+    return "!", 200
 
 if __name__ == '__main__':
+    server.run(host="0.0.0.0", port=int(os.environ.get('PORT', 5000)))
+    '''
     while True:
         try:
             bot.polling(none_stop=True)
         except Exception as e:
             print("BOOM")
             time.sleep(3)
+    '''
