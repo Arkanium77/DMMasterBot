@@ -73,7 +73,7 @@ def echo_all(message):
     pass
 
 
-apihelper.proxy = {'https': 'https://67.205.146.54:80'}
+#apihelper.proxy = {'https': 'https://67.205.146.54:80'}
 # apihelper.proxy = {'https': 'socks5://swcbbabh:aYEbh6q5gQ@bb8.vivalaresistance.info:3306'}
 
 if __name__ == '__main__':
