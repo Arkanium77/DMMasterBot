@@ -1,7 +1,7 @@
 from random import randrange as rnd
 import re
 
-diceTypes = [[2, "C","С"], 3, "F", 4, 8, 10, 12, [20, "D"], 100]
+diceTypes = [[2, "C","С"], 3, "F", 4,6, 8, 10, 12, [20, "D"], 100]
 
 NO = 'NO'
 
