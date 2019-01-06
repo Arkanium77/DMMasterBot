@@ -21,7 +21,7 @@ def handle_message(message):
     tst = re.sub(diceR, "!", s)
     if (tst == "!"):
         a = diceMaster(s)
-        # print(message)
+        print(message)
         bot.reply_to(message, messBuilder(message, a))
     pass
 
