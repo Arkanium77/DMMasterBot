@@ -27,11 +27,14 @@ def handle_message(message):
 
 def messBuilder(message, a):
     s = ""
+
+    str1 = message.from_user.username
+
     try:
-        str1 = message.from_user.username
+        str1 += "  throws:\n"
     except Exception:
         str1 = message.from_user.first_name
-    str1 += "  throws:\n"
+        str1 += "  throws:\n"
     s += str1
     for i in a:
         s += str(i) + "     "
