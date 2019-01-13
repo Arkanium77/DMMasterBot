@@ -12,7 +12,6 @@ token = os.getenv("TOKEN")
 bot = telebot.TeleBot(token)
 
 diceR = "[0-9]*d(2|C|c|3|F|4|6|8|10|12|20|D|d|100)[0-9^(+\-)]*"
-lateR=re.compile(".*(опазд|опозд|задержу|задержим).*",re.MULTILINE | re.IGNORECASE)
 server = Flask(__name__)
 
 
@@ -27,8 +26,22 @@ def handle_message(message):
         bot.reply_to(message, messBuilder(message, a))
     pass
 
-@bot.message_handler(regexp=lateR)
-def handle_message(message):
+
+'''
+lateR=re.compile(".*(опазд|опозд|задержу|задержим).*",re.MULTILINE | re.IGNORECASE)
+@bot.message_handler(func=lambda m: True)
+def echo_all(message):
+	bot.reply_to(message, message.text)
+'''
+def lMatch(message):
+    lateR = re.compile(".*(опазд|опозд|задержу|задержим).*", re.MULTILINE | re.IGNORECASE)
+    if re.search(lateR,message.text)==None:
+        return False
+    return True
+
+
+@bot.message_handler(func=lMatch)
+def latecatch(message):
     late(message)
 
 def messBuilder(message, a):
