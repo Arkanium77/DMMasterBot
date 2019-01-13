@@ -2,6 +2,8 @@ import telebot
 import os
 from telebot import apihelper
 from dicelogic import diceMaster
+from excuse import genEx
+from late import howLate
 import time
 import re
 from flask import Flask, request
@@ -10,7 +12,7 @@ token = os.getenv("TOKEN")
 bot = telebot.TeleBot(token)
 
 diceR = "[0-9]*d(2|C|c|3|F|4|6|8|10|12|20|D|d|100)[0-9^(+\-)]*"
-
+lateR=re.compile(".*(опазд|опозд|задержу|задержим).*",re.MULTILINE | re.IGNORECASE)
 server = Flask(__name__)
 
 
@@ -24,6 +26,10 @@ def handle_message(message):
         print(message)
         bot.reply_to(message, messBuilder(message, a))
     pass
+
+@bot.message_handler(regexp=lateR)
+def handle_message(message):
+    late(message)
 
 def messBuilder(message, a):
     s = ""
@@ -40,6 +46,18 @@ def messBuilder(message, a):
         s += str(i) + "     "
     # s+="\n"
     return s
+
+@bot.message_handler(commands=['excuse'])
+def excuse(message):
+    s=genEx()
+    bot.reply_to(message, s)
+
+
+@bot.message_handler(commands=['late'])
+def late(message):
+    s=howLate()
+    bot.reply_to(message, s)
+
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
