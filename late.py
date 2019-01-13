@@ -50,7 +50,7 @@ def sEnd(c):
         s+="а"
     elif c>1 and c<5:
         s+="ы"
-    elif c>=5 and c<20:
+    elif c>=5 and c<21:
         s+=""
     return "секунд"+s
 
@@ -62,7 +62,7 @@ def mEnd(c):
         s+="уту"
     elif c>1 and c<5:
         s+="уты"
-    elif c>=5 and c<20:
+    elif c>=5 and c<21:
         s+="ут"
     return "мин"+s
 
@@ -75,7 +75,7 @@ def hEnd(c):
         s+=""
     elif c>1 and c<5:
         s+="а"
-    elif c>=5 and c<20:
+    elif c>=5 and c<21:
         s+="ов"
     return "час"+s
 
@@ -87,7 +87,7 @@ def dEnd(c):
         s+="день"
     elif c>1 and c<5:
         s+="дня"
-    elif c>=5 and c<20:
+    elif c>=5 and c<21:
         s+="дней"
     return s
 
@@ -100,7 +100,7 @@ def wEnd(c):
         s+="ю"
     elif c>1 and c<5:
         s+="и"
-    elif c>=5 and c<20:
+    elif c>=5 and c<21:
         s+="ь"
     return "недел"+s
 
