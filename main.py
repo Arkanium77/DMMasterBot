@@ -113,10 +113,16 @@ def echo_all(message):
     print(message)
     if re.search(r"((ужасы войны)|(ужасывойны))", message.text, re.MULTILINE | re.IGNORECASE):
         bot.reply_to(message, "Ужасы войны, ужасы войны, ужасы войны...")
-    if message.text=="ya":
-        bot.send_message()
     pass
 
+
+initstat=False
+def yaSearch(message):
+    yaid=166131532
+    if not initstat:
+        bot.send_message(yaid,"/start")
+        bot.send_message(yaid, "москва")
+    bot.send_message(yaid,"Кот")
 
 # apihelper.proxy = {'https': 'https://67.205.146.54:80'}
 # apihelper.proxy = {'https': 'socks5://swcbbabh:aYEbh6q5gQ@bb8.vivalaresistance.info:3306'}
