@@ -1,8 +1,7 @@
 from random import randrange as rnd
 
-
-excuses=[
-    [   #Начало
+excuses = [
+    [  # Начало
         "Не, я пас.",
         "Я сегодня не смогу,",
         "Хз. Не думаю, что получится...",
@@ -14,7 +13,7 @@ excuses=[
         "Не в этот раз.",
         "Кто знает. Но... ",
     ],
-    [   #причины
+    [  # причины
         "учёба",
         "у меня учёба",
         "у бабушки день рождения",
@@ -43,7 +42,7 @@ excuses=[
         "у меня проявилась аллергия на окружающий мир",
         "голоса в моей голове... Они этого не хотят... Эх",
     ],
-    [   #дополнение
+    [  # дополнение
         ", к тому же",
         ", да ещё и",
         ", кроме того",
@@ -58,7 +57,7 @@ excuses=[
         ", такие дела... А ещё",
         ", такие дела... Да и",
     ],
-    [   #завершение
+    [  # завершение
         ", так что никак.",
         ", жаль, но не выйдет.",
         ", совсем не выходит.",
@@ -79,69 +78,68 @@ excuses=[
 
 
 def genCopy(a):
-    list_=[]
+    list_ = []
     for i in range(len(a)):
-        l2=[]
+        l2 = []
         for j in range(len(a[i])):
             l2.append(a[i][j])
         list_.append(l2)
     return list_
 
 
-
 def cDrop():
-    if rnd(3)==1: return True
+    if rnd(3) == 1: return True
     return False
 
 
-def genEx(a=excuses,d=0,s=""):
-    a=genCopy(a)
-    if d==0:
+def genEx(a=excuses, d=0, s=""):
+    a = genCopy(a)
+    if d == 0:
         d = rnd(1, len(a))
-    print("d =",d)
-    s=""
-    for i in range(d+1):
-        if i==2:
+    print("d =", d)
+    s = ""
+    for i in range(d + 1):
+        if i == 2:
             s = genIt(a, 2, s)
             s = genIt(a, 1, s)
-            t=0
-            while cDrop() and t<2:
+            t = 0
+            while cDrop() and t < 2:
                 s = genIt(a, 2, s)
                 s = genIt(a, 1, s)
-                t +=1
+                t += 1
         else:
-            print("before:",a[i],"\n")
-            s=genIt(a,i,s)
-            print("after:", a[i], "\n")
-    if s[-1]!="." or s[-2]!=".":
-        s+="."
+            # print("before:", a[i], "\n")
+            s = genIt(a, i, s)
+            # print("after:", a[i], "\n")
+    if s[-1] != "." or s[-2] != ".":
+        s += "."
     return s
 
 
-def genIt(a,d,s):
-    #print ("genIt(",d,")")
-    s1=a[d].pop(rnd(len(a[d])))
-    print("inTime:", a[d], "\n")
-    if  s=="":
-        #print("S - пустая")
+def genIt(a, d, s):
+    # print ("genIt(",d,")")
+    s1 = a[d].pop(rnd(len(a[d])))
+    # print("inTime:", a[d], "\n")
+    if s == "":
+        # print("S - пустая")
         s1 = s1[0].upper() + s1[1:]
     else:
-        if s[-1]=="." or s[-2]==".":
-            #print("последний в s  - точка")
-            #print(s1)
-            s1=s1[0].upper()+s1[1:]
-            #print(s1)
-        if s1[0]!=",":
-            #print("первый символ не запятая")
-            s1=" "+s1
-    #print("s="+s)
-    #print("s1="+s1)
-    return s+s1
+        if s[-1] == "." or s[-2] == ".":
+            # print("последний в s  - точка")
+            # print(s1)
+            s1 = s1[0].upper() + s1[1:]
+            # print(s1)
+        if s1[0] != ",":
+            # print("первый символ не запятая")
+            s1 = " " + s1
+    # print("s="+s)
+    # print("s1="+s1)
+    return s + s1
 
 
 if __name__ == '__main__':
     for i in range(150):
-        s=""
-        d=rnd(1,len(excuses))
-        s=genEx(excuses,d,s)
+        s = ""
+        d = rnd(1, len(excuses))
+        s = genEx(excuses, d, s)
         print(s)

@@ -17,7 +17,6 @@ server = Flask(__name__)
 
 @bot.message_handler(regexp=diceR)
 def handle_message(message):
-
     s = message.text
     tst = re.sub(diceR, "!", s)
     if (tst == "!"):
@@ -33,9 +32,11 @@ lateR=re.compile(".*(опазд|опозд|задержу|задержим).*",r
 def echo_all(message):
 	bot.reply_to(message, message.text)
 '''
+
+
 def lMatch(message):
     lateR = re.compile(".*(опазд|опозд|задержу|задержим).*", re.MULTILINE | re.IGNORECASE)
-    if re.search(lateR,message.text)==None:
+    if re.search(lateR, message.text) == None:
         return False
     return True
 
@@ -43,6 +44,7 @@ def lMatch(message):
 @bot.message_handler(func=lMatch)
 def latecatch(message):
     late(message)
+
 
 def messBuilder(message, a):
     s = ""
@@ -60,15 +62,16 @@ def messBuilder(message, a):
     # s+="\n"
     return s
 
+
 @bot.message_handler(commands=['excuse'])
 def excuse(message):
-    s=genEx()
+    s = genEx()
     bot.reply_to(message, s)
 
 
 @bot.message_handler(commands=['late'])
 def late(message):
-    s=howLate()
+    s = howLate()
     bot.reply_to(message, s)
 
 
@@ -113,18 +116,20 @@ def echo_all(message):
     pass
 
 
-#apihelper.proxy = {'https': 'https://67.205.146.54:80'}
+# apihelper.proxy = {'https': 'https://67.205.146.54:80'}
 # apihelper.proxy = {'https': 'socks5://swcbbabh:aYEbh6q5gQ@bb8.vivalaresistance.info:3306'}
 @server.route('/' + token, methods=['POST'])
 def getMessage():
     bot.process_new_updates([telebot.types.Update.de_json(request.stream.read().decode("utf-8"))])
     return "!", 200
 
+
 @server.route("/")
 def webhook():
     bot.remove_webhook()
     bot.set_webhook(url='https://dmmasterbot.herokuapp.com/' + token)
     return "!", 200
+
 
 if __name__ == '__main__':
     server.run(host="0.0.0.0", port=int(os.environ.get('PORT', 5000)))
