@@ -110,9 +110,11 @@ def send_welcome(message):
 
 @bot.message_handler(func=lambda m: True)
 def echo_all(message):
-    print(message.text)
+    print(message)
     if re.search(r"((ужасы войны)|(ужасывойны))", message.text, re.MULTILINE | re.IGNORECASE):
         bot.reply_to(message, "Ужасы войны, ужасы войны, ужасы войны...")
+    if message.text=="ya":
+        bot.send_message()
     pass
 
 
