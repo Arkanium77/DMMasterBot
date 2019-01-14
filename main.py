@@ -6,6 +6,7 @@ from excuse import genEx
 from late import howLate
 import time
 import re
+from consts_tg import stickers as stck
 from flask import Flask, request
 
 token = os.getenv("TOKEN")
@@ -20,9 +21,13 @@ def handle_message(message):
     s = message.text
     tst = re.sub(diceR, "!", s)
     if (tst == "!"):
-        a = diceMaster(s)
-        print(message)
-        bot.reply_to(message, messBuilder(message, a))
+        if s=="1d20" or s=="d20" :
+            stickerDice(message)
+
+        else:
+            a = diceMaster(s)
+            print(message)
+            bot.reply_to(message, messBuilder(message, a))
     pass
 
 
@@ -67,6 +72,12 @@ def messBuilder(message, a):
 def excuse(message):
     s = genEx()
     bot.reply_to(message, s)
+
+@bot.message_handler(commands=['throw'])
+def stickerDice(message):
+    s=diceMaster("1d20")
+    bot.send_sticker(message.chat_id, stck[s[0]])
+
 
 
 @bot.message_handler(commands=['late'])
@@ -117,7 +128,7 @@ def echo_all(message):
         yaSearch(message)
     pass
 
-
+#bot.send_sticker(chat_id=update.message.chat_id, sticker='CAADAgADOQADfyesDlKEqOOd72VKAg')
 def yaSearch(message):
     pass
 
