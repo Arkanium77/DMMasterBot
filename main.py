@@ -76,7 +76,7 @@ def excuse(message):
 @bot.message_handler(commands=['throw'])
 def stickerDice(message):
     s=diceMaster("1d20")
-    bot.send_sticker(message.chat_id, stck[s[0]])
+    bot.send_sticker(message.chat.id, stck[s[0]])
 
 
 
