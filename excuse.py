@@ -77,7 +77,7 @@ excuses=[
 
 
 def cDrop():
-    if rnd(2)==1: return True
+    if rnd(3)==1: return True
     return False
 
 def genEx(a=excuses,d=0,s=""):
@@ -89,10 +89,11 @@ def genEx(a=excuses,d=0,s=""):
         if i==2:
             s = genIt(a, 2, s)
             s = genIt(a, 1, s)
-            while cDrop():
+            t=0
+            while cDrop() and t<2:
                 s = genIt(a, 2, s)
                 s = genIt(a, 1, s)
-                t = rnd(1)
+                t +=1
         else:
             s=genIt(a,i,s)
     if s[-1]!="." or s[-2]!=".":
