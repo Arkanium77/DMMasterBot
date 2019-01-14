@@ -11,7 +11,7 @@ excuses = [
         "Попытаюсь, но",
         "Может быть, но",
         "Не в этот раз.",
-        "Кто знает. Но... ",
+        "Кто знает. Но...",
     ],
     [  # причины
         "учёба",
@@ -88,29 +88,32 @@ def genCopy(a):
 
 
 def cDrop():
-    if rnd(3) == 1: return True
+    if rnd(5) == 0: return True
     return False
 
 
-def genEx(a=excuses, d=0, s=""):
+def genEx(d=0,a=excuses,  s=""):
     a = genCopy(a)
     if d == 0:
         d = rnd(1, len(a))
-    print("d =", d)
+    #print("d =", d)
     s = ""
     for i in range(d + 1):
         if i == 2:
             s = genIt(a, 2, s)
+            #print("1 - ", s)
             s = genIt(a, 1, s)
+            #print("2 - ", s)
             t = 0
-            while cDrop() and t < 2:
+            while cDrop() and t < 1:
                 s = genIt(a, 2, s)
+                #print("cD1 - ",s)
                 s = genIt(a, 1, s)
+                #print("cD2 - ", s)
                 t += 1
         else:
-            # print("before:", a[i], "\n")
             s = genIt(a, i, s)
-            # print("after:", a[i], "\n")
+            #print("s",s)
     if s[-1] != "." or s[-2] != ".":
         s += "."
     return s
@@ -119,27 +122,28 @@ def genEx(a=excuses, d=0, s=""):
 def genIt(a, d, s):
     # print ("genIt(",d,")")
     s1 = a[d].pop(rnd(len(a[d])))
-    # print("inTime:", a[d], "\n")
+    #print("s(нач)="+s)
+
+    s1=s1.strip()
+    #print("s1(нач)="+s1)
     if s == "":
-        # print("S - пустая")
+        #print("S - пустая")
         s1 = s1[0].upper() + s1[1:]
     else:
         if s[-1] == "." or s[-2] == ".":
-            # print("последний в s  - точка")
-            # print(s1)
+            #print("последний в s  - точка")
+            #print("До апа "+s1)
             s1 = s1[0].upper() + s1[1:]
-            # print(s1)
-        if s1[0] != ",":
-            # print("первый символ не запятая")
+            #print("После апа "+s1)
+        if s1[0] != "," and s1[0]!="." and s1[1] != "," and s1[1]!=".":
+            #print(s1[0]+s1[1]+" - первый символ не запятая")
             s1 = " " + s1
-    # print("s="+s)
-    # print("s1="+s1)
+    #print("s="+s)
+    #print("s1="+s1)
     return s + s1
 
 
 if __name__ == '__main__':
-    for i in range(150):
-        s = ""
-        d = rnd(1, len(excuses))
-        s = genEx(excuses, d, s)
+    for i in range(1):
+        s = genEx(3)
         print(s)
