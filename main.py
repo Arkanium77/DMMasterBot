@@ -113,6 +113,8 @@ def echo_all(message):
     print(message)
     if re.search(r"((ужасы войны)|(ужасывойны))", message.text, re.MULTILINE | re.IGNORECASE):
         bot.reply_to(message, "Ужасы войны, ужасы войны, ужасы войны...")
+    if message.text=="ya":
+        yaSearch(message)
     pass
 
 
