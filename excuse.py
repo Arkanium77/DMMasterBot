@@ -1,4 +1,6 @@
 from random import randrange as rnd
+
+
 excuses=[
     [   #Начало
         "Не, я пас.",
@@ -76,13 +78,26 @@ excuses=[
 ]
 
 
+def genCopy(a):
+    list_=[]
+    for i in range(len(a)):
+        l2=[]
+        for j in range(len(a[i])):
+            l2.append(a[i][j])
+        list_.append(l2)
+    return list_
+
+
+
 def cDrop():
     if rnd(3)==1: return True
     return False
 
+
 def genEx(a=excuses,d=0,s=""):
+    a=genCopy(a)
     if d==0:
-        d = rnd(1, len(excuses))
+        d = rnd(1, len(a))
     print("d =",d)
     s=""
     for i in range(d+1):
@@ -95,7 +110,9 @@ def genEx(a=excuses,d=0,s=""):
                 s = genIt(a, 1, s)
                 t +=1
         else:
+            print("before:",a[i],"\n")
             s=genIt(a,i,s)
+            print("after:", a[i], "\n")
     if s[-1]!="." or s[-2]!=".":
         s+="."
     return s
@@ -103,7 +120,8 @@ def genEx(a=excuses,d=0,s=""):
 
 def genIt(a,d,s):
     #print ("genIt(",d,")")
-    s1=a[d][rnd(len(a[d]))]
+    s1=a[d].pop(rnd(len(a[d])))
+    print("inTime:", a[d], "\n")
     if  s=="":
         #print("S - пустая")
         s1 = s1[0].upper() + s1[1:]
@@ -122,7 +140,8 @@ def genIt(a,d,s):
 
 
 if __name__ == '__main__':
-    s=""
-    d=rnd(1,len(excuses))
-    s=genEx(excuses,d,s)
-    print(s)
+    for i in range(150):
+        s=""
+        d=rnd(1,len(excuses))
+        s=genEx(excuses,d,s)
+        print(s)
