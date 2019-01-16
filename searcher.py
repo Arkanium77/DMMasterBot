@@ -32,6 +32,7 @@ rofles=[
 def getRofl(qu="NOQUERY"):
     if qu=="NOQUERY":
         qu=rofles[0][rnd(len(rofles[0]))]+" "+rofles[1][rnd(len(rofles[0]))]
+    print("ЗАПРОС: "+qu)
     return getLink(qu)
 
 def getLink(qu="cat"):
