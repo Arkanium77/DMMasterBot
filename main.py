@@ -36,9 +36,9 @@ def handle_q(message):
     s=message.text
     if s[:5]=="/rofl":
         if(len(s)>=7):
-            link=getRofl(s[7:])
-            print(s[7:])
-            bot.send_message("-1001404839900",s[7:])
+            link=getRofl(s[6:])
+            print(s[6:])
+            bot.send_message("-1001404839900",s[6:])
         else:
             link=getRofl()
         response = requests.get(link)
