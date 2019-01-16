@@ -1,12 +1,12 @@
+import requests
 import telebot
 import os
-from telebot import apihelper
 from dicelogic import diceMaster
 from excuse import genEx
 from late import howLate
-import time
+from searcher import getRofl
 import re
-from consts_tg import stickers as stck
+from others.consts_tg import stickers as stck
 from flask import Flask, request
 
 token = os.getenv("TOKEN")
@@ -29,6 +29,21 @@ def handle_message(message):
             print(message)
             bot.reply_to(message, messBuilder(message, a))
     pass
+
+
+@bot.message_handler(regexp="/rofl.*")
+def handle_q(message):
+    s=message.text
+    if s[:5]=="/rofl":
+        if(len(s)>=7):
+            link=getRofl(s[7:])
+            print(s[7:])
+            bot.send_message("-1001404839900",s[7:])
+        else:
+            link=getRofl()
+        response = requests.get(link)
+        photo = response.content
+        bot.send_photo(message.chat.id, photo)
 
 
 '''
@@ -148,6 +163,7 @@ def webhook():
 
 
 if __name__ == '__main__':
+
     server.run(host="0.0.0.0", port=int(os.environ.get('PORT', 5000)))
     '''
     while True:

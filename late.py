@@ -1,6 +1,6 @@
 from random import randrange as rnd
 
-maxtime = 1512000
+maxtime = 600000
 
 timeLen = [
     ["мин", 60],

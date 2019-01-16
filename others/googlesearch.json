@@ -1,0 +1,244 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - cat",
+        "totalResults": "906000000",
+        "searchTerms": "cat",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "off",
+        "cx": "012197094772699706049:luntfqs89y4",
+        "fileType": "png,jpg",
+        "searchType": "image",
+        "imgSize": "large",
+        "imgColorType": "color"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - cat",
+        "totalResults": "906000000",
+        "searchTerms": "cat",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "off",
+        "cx": "012197094772699706049:luntfqs89y4",
+        "fileType": "png,jpg",
+        "searchType": "image",
+        "imgSize": "large",
+        "imgColorType": "color"
+      }
+    ]
+  },
+  "context": {
+    "title": "Google"
+  },
+  "searchInformation": {
+    "searchTime": 0.361235,
+    "formattedSearchTime": "0,36",
+    "totalResults": "906000000",
+    "formattedTotalResults": "906\xa0000\xa0000"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "Reasons Why Craig Ferguson Is A Cat - craigyflogs",
+      "htmlTitle": "Reasons Why Craig Ferguson Is A <b>Cat</b> - craigyflogs",
+      "link": "https://sites.google.com/site/craigyflogs/_/rsrc/1370220201034/reasons-why-craig-ferguson-is-a-cat/2013%2006%2001%20craig%20ferguson%20twitter%20avi%20-%20scottish%20cat.jpg?height=320&width=320",
+      "displayLink": "sites.google.com",
+      "snippet": "Reasons Why Craig Ferguson Is A Cat - craigyflogs",
+      "htmlSnippet": "Reasons Why Craig Ferguson Is A <b>Cat</b> - craigyflogs",
+      "mime": "image/jpeg",
+      "image": {
+        "contextLink": "https://sites.google.com/site/craigyflogs/reasons-why-craig-ferguson-is-a-cat",
+        "height": 320,
+        "width": 320,
+        "byteSize": 14437,
+        "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6_kS6X8uHK4C67rKnITDnz-MyKafYYbZN4T6fGHP8OEjTem1LZDTpwOk",
+        "thumbnailHeight": 118,
+        "thumbnailWidth": 118
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Cat with sunflowers - Sunflower facts",
+      "htmlTitle": "<b>Cat</b> with sunflowers - Sunflower facts",
+      "link": "https://sites.google.com/site/sunflowerfacts/_/rsrc/1465892271622/sweet-things/catwithsunflowers/cat-pictures.jpg",
+      "displayLink": "sites.google.com",
+      "snippet": "Cat with sunflowers - Sunflower facts",
+      "htmlSnippet": "<b>Cat</b> with sunflowers - Sunflower facts",
+      "mime": "image/jpeg",
+      "image": {
+        "contextLink": "https://sites.google.com/site/sunflowerfacts/sweet-things/catwithsunflowers",
+        "height": 281,
+        "width": 450,
+        "byteSize": 17549,
+        "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI9FeiJzxAI2LhPLkyi_w1LyMT8p0i0QnJs1a4Ejy7BdzGICdSdwu50QE",
+        "thumbnailHeight": 79,
+        "thumbnailWidth": 127
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Cat with sunflowers - Sunflower facts",
+      "htmlTitle": "<b>Cat</b> with sunflowers - Sunflower facts",
+      "link": "https://sites.google.com/site/sunflowerfacts/_/rsrc/1465892271684/sweet-things/catwithsunflowers/cats-sunflowers.jpg",
+      "displayLink": "sites.google.com",
+      "snippet": "Cat with sunflowers - Sunflower facts",
+      "htmlSnippet": "<b>Cat</b> with sunflowers - Sunflower facts",
+      "mime": "image/jpeg",
+      "image": {
+        "contextLink": "https://sites.google.com/site/sunflowerfacts/sweet-things/catwithsunflowers",
+        "height": 700,
+        "width": 524,
+        "byteSize": 98419,
+        "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpI2RjPAHYsW15qlyFznoPkqphjPHmbrgAyD05GAHqQBzzJ1f4V2qjz9I",
+        "thumbnailHeight": 140,
+        "thumbnailWidth": 105
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Presentation",
+      "htmlTitle": "Presentation",
+      "link": "https://sites.google.com/site/elevageclandestinosphynx/_/rsrc/1346868962229/la-race-sphynx/presentation/FR%20-%20Pr%C3%A9sentation%20SX%20-%20Enigma%20corps%20350.png",
+      "displayLink": "sites.google.com",
+      "snippet": "FR - Présentation SX - Enigma  ...",
+      "htmlSnippet": "FR - Présentation SX - Enigma  ...",
+      "mime": "image/png",
+      "image": {
+        "contextLink": "https://sites.google.com/site/elevageclandestinosphynx/sphynx-cat/en-presentation?tmpl=%2Fsystem%2Fapp%2Ftemplates%2Fprint%2F&showPrintDialog=1",
+        "height": 339,
+        "width": 350,
+        "byteSize": 134257,
+        "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOYR7BMIbS-Er_3orY2ACCcjiu_VWYunCUG8571OjruGifGalJjnnnFuI",
+        "thumbnailHeight": 116,
+        "thumbnailWidth": 120
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Helik-A — фотографии за 13 мая 2015 на Яндекс.Фотках",
+      "htmlTitle": "Helik-A — фотографии за 13 мая 2015 на Яндекс.Фотках",
+      "link": "https://img-fotki.yandex.ru/get/6605/36740168.c1/0_a2a2c_b8647296_L",
+      "displayLink": "fotki.yandex.ru",
+      "snippet": "Helik-A — фотографии за 13 мая 2015 на Яндекс.Фотках",
+      "htmlSnippet": "Helik-A — фотографии за 13 мая 2015 на Яндекс.Фотках",
+      "mime": "image/",
+      "image": {
+        "contextLink": "https://fotki.yandex.ru/users/helik-a/date/2015-05-13",
+        "height": 409,
+        "width": 500,
+        "byteSize": 61591,
+        "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9pIVQCV9CKLhixFwEwqF9LOMQX7eVghDLKyBtQ27MW3cKqU42bT7t89R2",
+        "thumbnailHeight": 106,
+        "thumbnailWidth": 130
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "wise-cat — фотографии за 24 сентября 2011 на Яндекс.Фотках",
+      "htmlTitle": "wise-<b>cat</b> — фотографии за 24 сентября 2011 на Яндекс.Фотках",
+      "link": "https://img-fotki.yandex.ru/get/5812/65455487.7b/0_193438_b513e43f_L",
+      "displayLink": "fotki.yandex.ru",
+      "snippet": "wise-cat — фотографии за 24 сентября 2011 на Яндекс.Фотках",
+      "htmlSnippet": "wise-<b>cat</b> — фотографии за 24 сентября 2011 на Яндекс.Фотках",
+      "mime": "image/",
+      "image": {
+        "contextLink": "https://fotki.yandex.ru/users/wise-cat/date/2011-09-24",
+        "height": 363,
+        "width": 500,
+        "byteSize": 65332,
+        "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3QRWMJWRG4B9i8lH2bCZ4rrTBNAnAYo9G_ejxJZQDVQHgLzh9ORfe_wUs",
+        "thumbnailHeight": 94,
+        "thumbnailWidth": 130
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Helik-A — фотографии за 13 мая 2015 на Яндекс.Фотках",
+      "htmlTitle": "Helik-A — фотографии за 13 мая 2015 на Яндекс.Фотках",
+      "link": "https://img-fotki.yandex.ru/get/4804/36740168.c1/0_a2a2f_e2e8f5e7_L",
+      "displayLink": "fotki.yandex.ru",
+      "snippet": "Helik-A — фотографии за 13 мая 2015 на Яндекс.Фотках",
+      "htmlSnippet": "Helik-A — фотографии за 13 мая 2015 на Яндекс.Фотках",
+      "mime": "image/",
+      "image": {
+        "contextLink": "https://fotki.yandex.ru/users/helik-a/date/2015-05-13",
+        "height": 435,
+        "width": 500,
+        "byteSize": 73759,
+        "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZVyNgxgU7u9_kFcNK5vifFxEHvGbzCUga7OM8PAnxilRY-plPB0xeQa3l",
+        "thumbnailHeight": 113,
+        "thumbnailWidth": 130
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Helik-A — фотографии за 13 мая 2015 на Яндекс.Фотках",
+      "htmlTitle": "Helik-A — фотографии за 13 мая 2015 на Яндекс.Фотках",
+      "link": "https://img-fotki.yandex.ru/get/9251/36740168.c1/0_a2a2d_9bf8f423_L",
+      "displayLink": "fotki.yandex.ru",
+      "snippet": "Helik-A — фотографии за 13 мая 2015 на Яндекс.Фотках",
+      "htmlSnippet": "Helik-A — фотографии за 13 мая 2015 на Яндекс.Фотках",
+      "mime": "image/",
+      "image": {
+        "contextLink": "https://fotki.yandex.ru/users/helik-a/date/2015-05-13",
+        "height": 333,
+        "width": 500,
+        "byteSize": 55212,
+        "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTryrJTO20SBMgIhJYiXiDtrevI9QLIBS-01sFuRLLZkR5VRYIY_irODQ0",
+        "thumbnailHeight": 87,
+        "thumbnailWidth": 130
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "wise-cat — фотографии за 3 декабря 2010 на Яндекс.Фотках",
+      "htmlTitle": "wise-<b>cat</b> — фотографии за 3 декабря 2010 на Яндекс.Фотках",
+      "link": "https://img-fotki.yandex.ru/get/5106/wise-cat.26/0_c8d44_624053ae_L",
+      "displayLink": "fotki.yandex.ru",
+      "snippet": "wise-cat — фотографии за 3 декабря 2010 на Яндекс.Фотках",
+      "htmlSnippet": "wise-<b>cat</b> — фотографии за 3 декабря 2010 на Яндекс.Фотках",
+      "mime": "image/",
+      "image": {
+        "contextLink": "https://fotki.yandex.ru/users/wise-cat/date/2010-12-03?&p=1",
+        "height": 500,
+        "width": 406,
+        "byteSize": 114385,
+        "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq4mpfq1EMePhXpnZ_5fmGiHLjli9cIzgcBx-ZSrpNCZ-YQ_ne7izKJQM",
+        "thumbnailHeight": 130,
+        "thumbnailWidth": 106
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Diana Lebedeva — фото любимых авторов на Яндекс.Фотках",
+      "htmlTitle": "Diana Lebedeva — фото любимых авторов на Яндекс.Фотках",
+      "link": "https://img-fotki.yandex.ru/get/1337265/131062601.98/0_19fca9_14e058d2_L",
+      "displayLink": "fotki.yandex.ru",
+      "snippet": "Diana Lebedeva — фото любимых авторов на Яндекс.Фотках",
+      "htmlSnippet": "Diana Lebedeva — фото любимых авторов на Яндекс.Фотках",
+      "mime": "image/",
+      "image": {
+        "contextLink": "https://fotki.yandex.ru/users/malheur/favorites-plain?&p=3",
+        "height": 500,
+        "width": 369,
+        "byteSize": 39358,
+        "thumbnailLink": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWvC_6h1K1fs-F2WYympDgRVW-L8SoFx7Dx-jbU62RX0HDotV0MObzPfHt",
+        "thumbnailHeight": 130,
+        "thumbnailWidth": 96
+      }
+    }
+  ]
+}

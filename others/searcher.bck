@@ -1,0 +1,37 @@
+from googleapiclient.discovery import build
+import os
+if __name__ == '__main__':
+    service = build("customsearch", "v1",
+                   developerKey=os.getenv("DEVKEY"))
+
+    start = 1
+
+    while True:
+
+        res = service.cse().list(
+            q="cat",
+            cx=os.getenv("CX_KEY"),
+            fileType="png,jpg,gif,bmp,webp",  # bmp, gif, png, jpg, svg, pdf, ...
+            imgColorType="color",  # mono, gray, color
+            imgSize="large",  # icon, small, medium, large, xlarge, xxlarge, huge
+            #imgType="photo",  # clipart, face, lineart, news, photo
+            safe="off",  # high, medium, off
+            searchType="image",
+            start=start
+        ).execute()
+        print(res)
+        link=res["items"][0]["link"]
+        it=str.rindex(link,"?")
+        print(link+"\nFullsize:  "+link[:it])
+
+#        for img in res["items"]:
+#            print(img["link"])
+#
+#        if "nextPage" not in res["queries"]:
+#            break
+
+ #       start = res["queries"]["nextPage"][0]["startIndex"]
+
+
+
+#google custom search api key AIzaSyC2EYQDXObb7FhrDDSCVlrS5jwsst0pqeg
