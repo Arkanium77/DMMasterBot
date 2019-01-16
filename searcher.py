@@ -72,7 +72,3 @@ if __name__ == '__main__':
 #            break
 
  #       start = res["queries"]["nextPage"][0]["startIndex"]
-
-
-
-#google custom search api key AIzaSyC2EYQDXObb7FhrDDSCVlrS5jwsst0pqeg
