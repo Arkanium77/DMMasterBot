@@ -1,0 +1,894 @@
+{
+  "_type": "Images",
+  "instrumentation": {
+    "_type": "ResponseInstrumentation"
+  },
+  "readLink": "https:\/\/api.cognitive.microsoft.com\/api\/v7\/images\/search?q=puppies",
+  "webSearchUrl": "https:\/\/www.bing.com\/images\/search?q=puppies&FORM=OIIARP",
+  "queryContext": {
+    "originalQuery": "puppies",
+    "alterationDisplayQuery": "puppies",
+    "alterationOverrideQuery": "+puppies",
+    "alterationMethod": "AM_JustChangeIt",
+    "alterationType": "CombinedAlterationsChained"
+  },
+  "totalEstimatedMatches": 903,
+  "nextOffset": 36,
+  "value": [
+    {
+      "webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=puppies&id=290D8F761920F7D69FEB0C032C1023D1CF1621FC&simid=608019745312342587",
+      "name": "Puppies in N.H. from Puerto Rico May Have Leptospirosis | Time",
+      "thumbnailUrl": "https:\/\/tse1.mm.bing.net\/th?id=OIP.VYKJlvWZltlq0Cxk8BthqgHaE8&pid=Api",
+      "datePublished": "2017-11-18T19:01:00.0000000Z",
+      "isFamilyFriendly": true,
+      "contentUrl": "https:\/\/timedotcom.files.wordpress.com\/2017\/11\/puppies-puerto-rico.jpeg?quality=85",
+      "hostPageUrl": "http:\/\/time.com\/5030710\/new-hampshire-puppies-leptospirosis\/",
+      "contentSize": "3685496 B",
+      "encodingFormat": "jpeg",
+      "hostPageDisplayUrl": "time.com\/5030710\/new-hampshire-puppies-leptospirosis",
+      "width": 5127,
+      "height": 3418,
+      "thumbnail": {
+        "width": 474,
+        "height": 316
+      },
+      "imageInsightsToken": "ccid_VYKJlvWZ*mid_290D8F761920F7D69FEB0C032C1023D1CF1621FC*simid_608019745312342587*thid_OIP.VYKJlvWZltlq0Cxk8BthqgHaE8",
+      "insightsMetadata": {
+        "pagesIncludingCount": 22,
+        "availableSizesCount": 12
+      },
+      "imageId": "290D8F761920F7D69FEB0C032C1023D1CF1621FC",
+      "accentColor": "705C4E"
+    },
+    {
+      "webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=puppies&id=8346ECD83769A347F6FC0C1FC3C3DC5DBAC944B4&simid=608013195584801203",
+      "name": "Korgi Puppy | Puppies Puppy",
+      "thumbnailUrl": "https:\/\/tse2.mm.bing.net\/th?id=OIP.RMhZEzraP-F7Xs8TEAM31wHaFj&pid=Api",
+      "datePublished": "2016-05-08T05:06:00.0000000Z",
+      "isFamilyFriendly": true,
+      "contentUrl": "http:\/\/www.pupsor.com\/wp-content\/uploads\/2016\/03\/korgi-puppy.jpg",
+      "hostPageUrl": "http:\/\/www.pupsor.com\/korgi-puppy-40995.html",
+      "contentSize": "78314 B",
+      "encodingFormat": "jpeg",
+      "hostPageDisplayUrl": "www.pupsor.com\/korgi-puppy-40995.html",
+      "width": 1024,
+      "height": 768,
+      "thumbnail": {
+        "width": 474,
+        "height": 355
+      },
+      "imageInsightsToken": "ccid_RMhZEzra*mid_8346ECD83769A347F6FC0C1FC3C3DC5DBAC944B4*simid_608013195584801203*thid_OIP.RMhZEzraP-F7Xs8TEAM31wHaFj",
+      "insightsMetadata": {
+        "pagesIncludingCount": 159,
+        "availableSizesCount": 68
+      },
+      "imageId": "8346ECD83769A347F6FC0C1FC3C3DC5DBAC944B4",
+      "accentColor": "953C36"
+    },
+    {
+      "webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=puppies&id=337A39F98293CE74402DB79E71EDBE1E62D4E21A&simid=608011632175743393",
+      "name": "Morkie Puppy - Free Coloring Pages",
+      "thumbnailUrl": "https:\/\/tse2.mm.bing.net\/th?id=OIP.e3BAxsHfVsEyOZNO4qyCoAHaI-&pid=Api",
+      "datePublished": "2018-09-17T23:20:00.0000000Z",
+      "isFamilyFriendly": true,
+      "contentUrl": "http:\/\/www.iheartteacups.com\/wp-content\/uploads\/2016\/03\/FullSizeRender-42.jpg",
+      "hostPageUrl": "http:\/\/printablecoloringpages.in\/coloring\/morkie-puppy",
+      "contentSize": "854693 B",
+      "encodingFormat": "jpeg",
+      "hostPageDisplayUrl": "printablecoloringpages.in\/coloring\/morkie-puppy",
+      "width": 2367,
+      "height": 2870,
+      "thumbnail": {
+        "width": 474,
+        "height": 574
+      },
+      "imageInsightsToken": "ccid_e3BAxsHf*mid_337A39F98293CE74402DB79E71EDBE1E62D4E21A*simid_608011632175743393*thid_OIP.e3BAxsHfVsEyOZNO4qyCoAHaI-",
+      "insightsMetadata": {
+        "pagesIncludingCount": 6,
+        "availableSizesCount": 1
+      },
+      "imageId": "337A39F98293CE74402DB79E71EDBE1E62D4E21A",
+      "accentColor": "8C5A3F"
+    },
+    {
+      "webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=puppies&id=2B2F373D234C8ECAB41FE9283774B0A7B2F07106&simid=608034940931342594",
+      "name": "These Dog Breeds Always Have Unbelievably Cute Puppies",
+      "thumbnailUrl": "https:\/\/tse1.mm.bing.net\/th?id=OIP.aBYYf0J4pZ00ULX_4qxApgHaE8&pid=Api",
+      "datePublished": "2018-06-18T09:56:00.0000000Z",
+      "isFamilyFriendly": true,
+      "contentUrl": "https:\/\/www.cheatsheet.com\/wp-content\/uploads\/2017\/10\/chow-chow-puppy.jpg",
+      "hostPageUrl": "https:\/\/www.cheatsheet.com\/culture\/these-dogs-breeds-always-have-unbelievably-cute-puppies.html\/",
+      "contentSize": "402002 B",
+      "encodingFormat": "jpeg",
+      "hostPageDisplayUrl": "https:\/\/www.cheatsheet.com\/culture\/these-dogs-breeds-always-have...",
+      "width": 2121,
+      "height": 1414,
+      "thumbnail": {
+        "width": 474,
+        "height": 316
+      },
+      "imageInsightsToken": "ccid_aBYYf0J4*mid_2B2F373D234C8ECAB41FE9283774B0A7B2F07106*simid_608034940931342594*thid_OIP.aBYYf0J4pZ00ULX!_4qxApgHaE8",
+      "insightsMetadata": {
+        "pagesIncludingCount": 10,
+        "availableSizesCount": 2
+      },
+      "imageId": "2B2F373D234C8ECAB41FE9283774B0A7B2F07106",
+      "accentColor": "8B6440"
+    },
+    {
+      "webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=puppies&id=CF30F87942C0F60341EA4539F7B434C3F304E1D5&simid=608051961861179483",
+      "name": "Collie German Shepherd Mix Puppies | Puppies Puppy",
+      "thumbnailUrl": "https:\/\/tse4.mm.bing.net\/th?id=OIP.llZRJbu-OdOWYqQQRnHr9wHaG4&pid=Api",
+      "datePublished": "2017-04-03T04:44:00.0000000Z",
+      "isFamilyFriendly": true,
+      "contentUrl": "http:\/\/www.pupsor.com\/wp-content\/uploads\/2016\/03\/corgi-puppy-pictures.jpg",
+      "hostPageUrl": "http:\/\/www.pupsor.com\/collie-german-shepherd-mix-puppies-36382.html",
+      "contentSize": "92658 B",
+      "encodingFormat": "jpeg",
+      "hostPageDisplayUrl": "www.pupsor.com\/collie-german-shepherd-mix-puppies-36382.html",
+      "width": 1024,
+      "height": 951,
+      "thumbnail": {
+        "width": 474,
+        "height": 440
+      },
+      "imageInsightsToken": "ccid_llZRJbu+*mid_CF30F87942C0F60341EA4539F7B434C3F304E1D5*simid_608051961861179483*thid_OIP.llZRJbu-OdOWYqQQRnHr9wHaG4",
+      "insightsMetadata": {
+        "pagesIncludingCount": 4,
+        "availableSizesCount": 4
+      },
+      "imageId": "CF30F87942C0F60341EA4539F7B434C3F304E1D5",
+      "accentColor": "674733"
+    },
+    {
+      "webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=puppies&id=983975A77646914BE964B7150609BAD8D56C8278&simid=608034013225943396",
+      "name": "Puppies for Sale | Puppy Stores in Phoenix and Tucson, Arizona",
+      "thumbnailUrl": "https:\/\/tse4.mm.bing.net\/th?id=OIP.xxBBInez6ou0sHmKjryc8gHaFj&pid=Api",
+      "datePublished": "2017-08-10T12:20:00.0000000Z",
+      "isFamilyFriendly": true,
+      "contentUrl": "https:\/\/a00000820018-live-cc36dd0ff06f46c08f9308e5144c2f82-209a3c0.s3.amazonaws.com\/filer_public_thumbnails\/filer_public\/f6\/5f\/f65f390c-299c-4f03-b011-7beef0ab295e\/block-photos_available-pets_383968525-cropped-resized.jpg__1170x877_q90_crop_subsampling-2_upscale.jpg",
+      "hostPageUrl": "http:\/\/www.animalkingdomaz.com\/",
+      "contentSize": "219916 B",
+      "encodingFormat": "jpeg",
+      "hostPageDisplayUrl": "www.animalkingdomaz.com",
+      "width": 1170,
+      "height": 877,
+      "thumbnail": {
+        "width": 474,
+        "height": 355
+      },
+      "imageInsightsToken": "ccid_xxBBInez*mid_983975A77646914BE964B7150609BAD8D56C8278*simid_608034013225943396*thid_OIP.xxBBInez6ou0sHmKjryc8gHaFj",
+      "insightsMetadata": {
+        "pagesIncludingCount": 5,
+        "availableSizesCount": 3
+      },
+      "imageId": "983975A77646914BE964B7150609BAD8D56C8278",
+      "accentColor": "A75E24"
+    },
+    {
+      "webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=puppies&id=207645884E3C540BE6F1AA2272E56857FC76C739&simid=608055818743844808",
+      "name": "English Bulldog Dog Breed Information, Buying Advice ...",
+      "thumbnailUrl": "https:\/\/tse2.mm.bing.net\/th?id=OIP.H8-ZCK19mxAY51N_9MtlPAHaE7&pid=Api",
+      "datePublished": "2018-12-30T21:45:00.0000000Z",
+      "isFamilyFriendly": true,
+      "contentUrl": "https:\/\/www.pets4homes.co.uk\/images\/breeds\/5\/large\/4209eeccec045a990cbd74545cbe3712.jpg",
+      "hostPageUrl": "https:\/\/www.pets4homes.co.uk\/dog-breeds\/english-bulldog\/",
+      "contentSize": "129684 B",
+      "encodingFormat": "jpeg",
+      "hostPageDisplayUrl": "https:\/\/www.pets4homes.co.uk\/dog-breeds\/english-bulldog",
+      "width": 1280,
+      "height": 851,
+      "thumbnail": {
+        "width": 474,
+        "height": 315
+      },
+      "imageInsightsToken": "ccid_H8+ZCK19*mid_207645884E3C540BE6F1AA2272E56857FC76C739*simid_608055818743844808*thid_OIP.H8-ZCK19mxAY51N!_9MtlPAHaE7",
+      "insightsMetadata": {
+        "pagesIncludingCount": 57,
+        "availableSizesCount": 27
+      },
+      "imageId": "207645884E3C540BE6F1AA2272E56857FC76C739",
+      "accentColor": "A37828"
+    },
+    {
+      "webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=puppies&id=FA78E0F4E7836F2EB379F08201CB37B85E646108&simid=608046837975944213",
+      "name": "F2 Hybrid PUGGLE Puppies, ready soon",
+      "thumbnailUrl": "https:\/\/tse4.mm.bing.net\/th?id=OIP.QE2TomJyCr3ewW0mMkAl1AHaGg&pid=Api",
+      "datePublished": "2018-11-04T16:18:00.0000000Z",
+      "isFamilyFriendly": true,
+      "contentUrl": "http:\/\/www.buymydog.co.uk\/upload\/pet_image\/2016\/02\/25-02-2016-IMG_0570%20(2).JPG",
+      "hostPageUrl": "http:\/\/www.buymydog.co.uk\/pets\/f2-hybrid-puggle-puppies-ready-soon\/300",
+      "contentSize": "2226218 B",
+      "encodingFormat": "jpeg",
+      "hostPageDisplayUrl": "www.buymydog.co.uk\/pets\/f2-hybrid-puggle-puppies-ready-soon\/300",
+      "width": 3278,
+      "height": 2883,
+      "thumbnail": {
+        "width": 474,
+        "height": 416
+      },
+      "imageInsightsToken": "ccid_QE2TomJy*mid_FA78E0F4E7836F2EB379F08201CB37B85E646108*simid_608046837975944213*thid_OIP.QE2TomJyCr3ewW0mMkAl1AHaGg",
+      "insightsMetadata": {
+        "pagesIncludingCount": 6,
+        "availableSizesCount": 1
+      },
+      "imageId": "FA78E0F4E7836F2EB379F08201CB37B85E646108",
+      "accentColor": "478216"
+    },
+    {
+      "webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=puppies&id=E3E430D760A5DFFB55302F1E470295A2A8B1190B&simid=608051034197329920",
+      "name": "Teacup Maltipoo Puppy for sale \"cece\" | iHeartTeacups",
+      "thumbnailUrl": "https:\/\/tse3.mm.bing.net\/th?id=OIP.VTR6R0yKmkP-EaxwteAWWwHaI3&pid=Api",
+      "datePublished": "2018-11-09T03:04:00.0000000Z",
+      "isFamilyFriendly": true,
+      "contentUrl": "http:\/\/www.iheartteacups.com\/wp-content\/uploads\/2015\/10\/IMG_0723.jpg",
+      "hostPageUrl": "http:\/\/www.iheartteacups.com\/teacup-maltipoo-puppy-for-sale-cece\/",
+      "contentSize": "134856 B",
+      "encodingFormat": "jpeg",
+      "hostPageDisplayUrl": "www.iheartteacups.com\/teacup-maltipoo-puppy-for-sale-cece",
+      "width": 1419,
+      "height": 1699,
+      "thumbnail": {
+        "width": 474,
+        "height": 567
+      },
+      "imageInsightsToken": "ccid_VTR6R0yK*mid_E3E430D760A5DFFB55302F1E470295A2A8B1190B*simid_608051034197329920*thid_OIP.VTR6R0yKmkP-EaxwteAWWwHaI3",
+      "insightsMetadata": {
+        "pagesIncludingCount": 5,
+        "availableSizesCount": 2
+      },
+      "imageId": "E3E430D760A5DFFB55302F1E470295A2A8B1190B",
+      "accentColor": "834829"
+    },
+    {
+      "webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=puppies&id=34CCC05FD6765429930CF3A4536811A20871B6BB&simid=608028180637026403",
+      "name": "Micro Teacup Maltese Puppy - xxs perfect! Billy ...",
+      "thumbnailUrl": "https:\/\/tse4.mm.bing.net\/th?id=OIP.kJbniNGrKxCkaf10syH8kgHaJh&pid=Api",
+      "datePublished": "2018-11-06T03:15:00.0000000Z",
+      "isFamilyFriendly": true,
+      "contentUrl": "http:\/\/www.iheartteacups.com\/wp-content\/uploads\/2016\/05\/FullSizeRender-82.jpg",
+      "hostPageUrl": "http:\/\/www.iheartteacups.com\/micro-teacup-maltese-puppy-xxs-perfect-billy\/",
+      "contentSize": "259937 B",
+      "encodingFormat": "jpeg",
+      "hostPageDisplayUrl": "www.iheartteacups.com\/micro-teacup-maltese-puppy-xxs-perfect-billy",
+      "width": 2213,
+      "height": 2845,
+      "thumbnail": {
+        "width": 474,
+        "height": 609
+      },
+      "imageInsightsToken": "ccid_kJbniNGr*mid_34CCC05FD6765429930CF3A4536811A20871B6BB*simid_608028180637026403*thid_OIP.kJbniNGrKxCkaf10syH8kgHaJh",
+      "insightsMetadata": {
+        "pagesIncludingCount": 6,
+        "availableSizesCount": 2
+      },
+      "imageId": "34CCC05FD6765429930CF3A4536811A20871B6BB",
+      "accentColor": "7A6C51"
+    },
+    {
+      "webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=puppies&id=9F9B5F0F23052703F3D1FA93AB1E6B7FDFA80110&simid=608052468672105780",
+      "name": "Puppies Wallpapers High Quality | Download Free",
+      "thumbnailUrl": "https:\/\/tse2.mm.bing.net\/th?id=OIP.qBlkY1Qv4BiYtGVC06KrpwHaE8&pid=Api",
+      "datePublished": "2018-11-09T03:26:00.0000000Z",
+      "isFamilyFriendly": true,
+      "contentUrl": "http:\/\/yesofcorsa.com\/wp-content\/uploads\/2015\/10\/3388_puppies.jpg",
+      "hostPageUrl": "http:\/\/yesofcorsa.com\/puppies\/",
+      "contentSize": "606842 B",
+      "encodingFormat": "jpeg",
+      "hostPageDisplayUrl": "yesofcorsa.com\/puppies",
+      "width": 1920,
+      "height": 1280,
+      "thumbnail": {
+        "width": 474,
+        "height": 316
+      },
+      "imageInsightsToken": "ccid_qBlkY1Qv*mid_9F9B5F0F23052703F3D1FA93AB1E6B7FDFA80110*simid_608052468672105780*thid_OIP.qBlkY1Qv4BiYtGVC06KrpwHaE8",
+      "insightsMetadata": {
+        "pagesIncludingCount": 21,
+        "availableSizesCount": 9
+      },
+      "imageId": "9F9B5F0F23052703F3D1FA93AB1E6B7FDFA80110",
+      "accentColor": "683E18"
+    },
+    {
+      "webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=puppies&id=3AF652B49CBEEB1D84759A683A50CD009DD5DDD3&simid=608015115415781562",
+      "name": "Shih Tzu Puppies in Northern New Jersey",
+      "thumbnailUrl": "https:\/\/tse3.mm.bing.net\/th?id=OIP.uVHtY0E9ge82K9ZChGbNuwHaE8&pid=Api",
+      "datePublished": "2018-11-06T15:04:00.0000000Z",
+      "isFamilyFriendly": true,
+      "contentUrl": "http:\/\/www.ultrashihtzu.com\/wp-content\/uploads\/2015\/10\/ultra-shih-tzu-puppies-16.jpg",
+      "hostPageUrl": "http:\/\/www.ultrashihtzu.com\/shih-tzu-puppies\/",
+      "contentSize": "3165577 B",
+      "encodingFormat": "jpeg",
+      "hostPageDisplayUrl": "www.ultrashihtzu.com\/shih-tzu-puppies",
+      "width": 3456,
+      "height": 2304,
+      "thumbnail": {
+        "width": 474,
+        "height": 316
+      },
+      "imageInsightsToken": "ccid_uVHtY0E9*mid_3AF652B49CBEEB1D84759A683A50CD009DD5DDD3*simid_608015115415781562*thid_OIP.uVHtY0E9ge82K9ZChGbNuwHaE8",
+      "insightsMetadata": {
+        "pagesIncludingCount": 5,
+        "availableSizesCount": 1
+      },
+      "imageId": "3AF652B49CBEEB1D84759A683A50CD009DD5DDD3",
+      "accentColor": "356496"
+    },
+    {
+      "webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=puppies&id=7B1C7FE0B1BD2CF1AF0E8797811F427D48F282E2&simid=608015321570674625",
+      "name": "Teacup maltipoo puppy for sale California | iHeartTeacups",
+      "thumbnailUrl": "https:\/\/tse2.mm.bing.net\/th?id=OIP.E-SUGrMWibPGBfSV2Z649AHaIi&pid=Api",
+      "datePublished": "2016-12-26T19:55:00.0000000Z",
+      "isFamilyFriendly": true,
+      "contentUrl": "http:\/\/www.iheartteacups.com\/wp-content\/uploads\/2016\/07\/IMG_9130-22.jpg",
+      "hostPageUrl": "http:\/\/www.iheartteacups.com\/teacup-maltipoo-puppy-for-sale-california\/",
+      "contentSize": "726067 B",
+      "encodingFormat": "jpeg",
+      "hostPageDisplayUrl": "www.iheartteacups.com\/teacup-maltipoo-puppy-for-sale-california",
+      "width": 2082,
+      "height": 2400,
+      "thumbnail": {
+        "width": 474,
+        "height": 546
+      },
+      "imageInsightsToken": "ccid_E+SUGrMW*mid_7B1C7FE0B1BD2CF1AF0E8797811F427D48F282E2*simid_608015321570674625*thid_OIP.E-SUGrMWibPGBfSV2Z649AHaIi",
+      "insightsMetadata": {
+        "pagesIncludingCount": 8,
+        "availableSizesCount": 2
+      },
+      "imageId": "7B1C7FE0B1BD2CF1AF0E8797811F427D48F282E2",
+      "accentColor": "694327"
+    },
+    {
+      "webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=puppies&id=F4E8D9210E9E76199D70B1F187C1E960D9D949BB&simid=608030345329969529",
+      "name": "Maltipoo Apricot Puppy For Sale! Muffin | iHeartTeacups",
+      "thumbnailUrl": "https:\/\/tse1.mm.bing.net\/th?id=OIP.6q9Qm4sx2rRFNiZ2XBTUNQHaHi&pid=Api",
+      "datePublished": "2016-04-15T21:44:00.0000000Z",
+      "isFamilyFriendly": true,
+      "contentUrl": "http:\/\/www.iheartteacups.com\/wp-content\/uploads\/2016\/04\/IMG_15832.jpg",
+      "hostPageUrl": "http:\/\/www.iheartteacups.com\/maltipoo-apricot-puppy-for-sale-muffin\/",
+      "contentSize": "101464 B",
+      "encodingFormat": "jpeg",
+      "hostPageDisplayUrl": "www.iheartteacups.com\/maltipoo-apricot-puppy-for-sale-muffin",
+      "width": 1192,
+      "height": 1213,
+      "thumbnail": {
+        "width": 474,
+        "height": 482
+      },
+      "imageInsightsToken": "ccid_6q9Qm4sx*mid_F4E8D9210E9E76199D70B1F187C1E960D9D949BB*simid_608030345329969529*thid_OIP.6q9Qm4sx2rRFNiZ2XBTUNQHaHi",
+      "insightsMetadata": {
+        "pagesIncludingCount": 9,
+        "availableSizesCount": 4
+      },
+      "imageId": "F4E8D9210E9E76199D70B1F187C1E960D9D949BB",
+      "accentColor": "6D4C3D"
+    },
+    {
+      "webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=puppies&id=EC00382FC5C6910FCC37C54F18F5D1F7B99AA941&simid=608049122945533950",
+      "name": "Airedale Terrier Puppies - Doglers",
+      "thumbnailUrl": "https:\/\/tse1.mm.bing.net\/th?id=OIP.IQXVTgBvO0E6nuvdcfwbIQHaF7&pid=Api",
+      "datePublished": "2018-10-28T22:46:00.0000000Z",
+      "isFamilyFriendly": true,
+      "contentUrl": "https:\/\/i0.wp.com\/doglers.com\/wp-content\/uploads\/2016\/02\/Airedale-Terriers-Cute-Puppy.jpg",
+      "hostPageUrl": "http:\/\/doglers.com\/puppies-photos\/airedale-terrier-puppies\/",
+      "contentSize": "169425 B",
+      "encodingFormat": "jpeg",
+      "hostPageDisplayUrl": "doglers.com\/puppies-photos\/airedale-terrier-puppies",
+      "width": 1280,
+      "height": 1024,
+      "thumbnail": {
+        "width": 474,
+        "height": 379
+      },
+      "imageInsightsToken": "ccid_IQXVTgBv*mid_EC00382FC5C6910FCC37C54F18F5D1F7B99AA941*simid_608049122945533950*thid_OIP.IQXVTgBvO0E6nuvdcfwbIQHaF7",
+      "insightsMetadata": {
+        "pagesIncludingCount": 40,
+        "availableSizesCount": 26
+      },
+      "imageId": "EC00382FC5C6910FCC37C54F18F5D1F7B99AA941",
+      "accentColor": "6B4635"
+    },
+    {
+      "webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=puppies&id=6C905B5FEDD259BE5CA637FE4429B06E719C5DAE&simid=608015403163519888",
+      "name": "Micro Teacup Yorkie puppy - iheartteacups.com | iHeartTeacups",
+      "thumbnailUrl": "https:\/\/tse3.mm.bing.net\/th?id=OIP.7jnxmhyzfyWijbDMgp-cowHaIr&pid=Api",
+      "datePublished": "2018-12-04T22:23:00.0000000Z",
+      "isFamilyFriendly": true,
+      "contentUrl": "http:\/\/www.iheartteacups.com\/wp-content\/uploads\/2016\/02\/IMG_4981-1.jpg",
+      "hostPageUrl": "http:\/\/www.iheartteacups.com\/micro-teacup-yorkie-puppy-iheartteacups-com\/",
+      "contentSize": "257214 B",
+      "encodingFormat": "jpeg",
+      "hostPageDisplayUrl": "www.iheartteacups.com\/micro-teacup-yorkie-puppy-iheartteacups-com",
+      "width": 2071,
+      "height": 2429,
+      "thumbnail": {
+        "width": 474,
+        "height": 555
+      },
+      "imageInsightsToken": "ccid_7jnxmhyz*mid_6C905B5FEDD259BE5CA637FE4429B06E719C5DAE*simid_608015403163519888*thid_OIP.7jnxmhyzfyWijbDMgp-cowHaIr",
+      "insightsMetadata": {
+        "pagesIncludingCount": 5,
+        "availableSizesCount": 2
+      },
+      "imageId": "6C905B5FEDD259BE5CA637FE4429B06E719C5DAE",
+      "accentColor": "8D633E"
+    },
+    {
+      "webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=puppies&id=580B145CCA8832FA4E5DE5D381FEA7B055B301A5&simid=608049908901351378",
+      "name": "Cute Husky Puppies That You Will Love – Cute Puppies Now",
+      "thumbnailUrl": "https:\/\/tse4.mm.bing.net\/th?id=OIP.zTz2mwFchWJduAV_NhQcmwHaHa&pid=Api",
+      "datePublished": "2018-04-26T21:24:00.0000000Z",
+      "isFamilyFriendly": true,
+      "contentUrl": "https:\/\/www.cutepuppiesnow.com\/wp-content\/uploads\/2017\/04\/Cute_Husky_Puppies-24.jpg",
+      "hostPageUrl": "https:\/\/www.cutepuppiesnow.com\/cute-husky-puppies\/",
+      "contentSize": "81259 B",
+      "encodingFormat": "jpeg",
+      "hostPageDisplayUrl": "https:\/\/www.cutepuppiesnow.com\/cute-husky-puppies",
+      "width": 960,
+      "height": 960,
+      "thumbnail": {
+        "width": 474,
+        "height": 474
+      },
+      "imageInsightsToken": "ccid_zTz2mwFc*mid_580B145CCA8832FA4E5DE5D381FEA7B055B301A5*simid_608049908901351378*thid_OIP.zTz2mwFchWJduAV!_NhQcmwHaHa",
+      "insightsMetadata": {
+        "pagesIncludingCount": 6,
+        "availableSizesCount": 2
+      },
+      "imageId": "580B145CCA8832FA4E5DE5D381FEA7B055B301A5",
+      "accentColor": "604A3A"
+    },
+    {
+      "webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=puppies&id=51D0117FFDBF76762D2496808C4A6B455A2E9C03&simid=608018684483734673",
+      "name": "Cute Puppy Dogs: White Labrador Retriever Puppies",
+      "thumbnailUrl": "https:\/\/tse3.mm.bing.net\/th?id=OIP.PIoSgoH62JKhgKtibXc07QHaF7&pid=Api",
+      "datePublished": "2013-01-02T12:00:00.0000000Z",
+      "isFamilyFriendly": true,
+      "contentUrl": "http:\/\/4.bp.blogspot.com\/-Z6Dc2Hs8nsI\/UORPab0qocI\/AAAAAAAATHM\/GGZ6TOB9YLY\/s1600\/Labrador_Retriever_puppies_345960440AZSKkU_fs.jpg",
+      "hostPageUrl": "http:\/\/cute-puppy-dog-pics.blogspot.com\/2013\/01\/white-labrador-retriever-puppies.html",
+      "contentSize": "318940 B",
+      "encodingFormat": "jpeg",
+      "hostPageDisplayUrl": "cute-puppy-dog-pics.blogspot.com\/2013\/01\/white-labrador-retriever...",
+      "width": 1280,
+      "height": 1024,
+      "thumbnail": {
+        "width": 474,
+        "height": 379
+      },
+      "imageInsightsToken": "ccid_PIoSgoH6*mid_51D0117FFDBF76762D2496808C4A6B455A2E9C03*simid_608018684483734673*thid_OIP.PIoSgoH62JKhgKtibXc07QHaF7",
+      "insightsMetadata": {
+        "pagesIncludingCount": 50,
+        "availableSizesCount": 18
+      },
+      "imageId": "51D0117FFDBF76762D2496808C4A6B455A2E9C03",
+      "accentColor": "31441A"
+    },
+    {
+      "webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=puppies&id=620EC0A7365D2E396944E277D9BA44273D02E7DE&simid=607999511744480034",
+      "name": "Puppies Vs. Mirrors - YouTube",
+      "thumbnailUrl": "https:\/\/tse4.mm.bing.net\/th?id=OIP.1CKuQM1oueiK2AmbBcSXKQHaEK&pid=Api",
+      "datePublished": "2019-01-02T21:49:00.0000000Z",
+      "isFamilyFriendly": true,
+      "contentUrl": "https:\/\/i.ytimg.com\/vi\/aQUPkOfSGq8\/maxresdefault.jpg",
+      "hostPageUrl": "https:\/\/www.youtube.com\/watch?v=aQUPkOfSGq8",
+      "contentSize": "126225 B",
+      "encodingFormat": "jpeg",
+      "hostPageDisplayUrl": "https:\/\/www.youtube.com\/watch?v=aQUPkOfSGq8",
+      "width": 1920,
+      "height": 1080,
+      "thumbnail": {
+        "width": 474,
+        "height": 266
+      },
+      "imageInsightsToken": "ccid_1CKuQM1o*mid_620EC0A7365D2E396944E277D9BA44273D02E7DE*simid_607999511744480034*thid_OIP.1CKuQM1oueiK2AmbBcSXKQHaEK",
+      "insightsMetadata": {
+        "pagesIncludingCount": 25,
+        "availableSizesCount": 14
+      },
+      "imageId": "620EC0A7365D2E396944E277D9BA44273D02E7DE",
+      "accentColor": "927039"
+    },
+    {
+      "webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=puppies&id=C45A32EBD81502F80378CBAE877095BCB83A3676&simid=608026088970521582",
+      "name": "Puppies For Sale In PA | Find Your Perfect Puppy at ...",
+      "thumbnailUrl": "https:\/\/tse1.mm.bing.net\/th?id=OIP.vgTWLsYSiUrCVOfbkjzngQHaDY&pid=Api",
+      "datePublished": "2018-10-25T15:11:00.0000000Z",
+      "isFamilyFriendly": true,
+      "contentUrl": "https:\/\/gfp-2a3tnpzj.stackpathdns.com\/wp-content\/uploads\/2011\/05\/gfp-banner-bullies-slide-1600x730.jpg",
+      "hostPageUrl": "http:\/\/www.greenfieldpuppies.com\/",
+      "contentSize": "80960 B",
+      "encodingFormat": "jpeg",
+      "hostPageDisplayUrl": "www.greenfieldpuppies.com",
+      "width": 1600,
+      "height": 730,
+      "thumbnail": {
+        "width": 474,
+        "height": 216
+      },
+      "imageInsightsToken": "ccid_vgTWLsYS*mid_C45A32EBD81502F80378CBAE877095BCB83A3676*simid_608026088970521582*thid_OIP.vgTWLsYSiUrCVOfbkjzngQHaDY",
+      "insightsMetadata": {
+        "pagesIncludingCount": 17,
+        "availableSizesCount": 12
+      },
+      "imageId": "C45A32EBD81502F80378CBAE877095BCB83A3676",
+      "accentColor": "6C9331"
+    },
+    {
+      "webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=puppies&id=165582D78FF645FE81B048A1A109E2D4A7DE923F&simid=608006521129273120",
+      "name": "Puppies and Dogs for Sale in CT - Buy in CT Breeder Pet Store",
+      "thumbnailUrl": "https:\/\/tse2.mm.bing.net\/th?id=OIP.fjQHgQ3a-g6223vR12NmUwHaEa&pid=Api",
+      "datePublished": "2018-06-13T22:08:00.0000000Z",
+      "isFamilyFriendly": true,
+      "contentUrl": "http:\/\/ctbreeder.com\/wp-content\/uploads\/2014\/04\/puppy-store.jpg",
+      "hostPageUrl": "http:\/\/ctbreeder.com\/",
+      "contentSize": "76643 B",
+      "encodingFormat": "jpeg",
+      "hostPageDisplayUrl": "ctbreeder.com",
+      "width": 1200,
+      "height": 715,
+      "thumbnail": {
+        "width": 474,
+        "height": 282
+      },
+      "imageInsightsToken": "ccid_fjQHgQ3a*mid_165582D78FF645FE81B048A1A109E2D4A7DE923F*simid_608006521129273120*thid_OIP.fjQHgQ3a-g6223vR12NmUwHaEa",
+      "insightsMetadata": {
+        "pagesIncludingCount": 50,
+        "availableSizesCount": 29
+      },
+      "imageId": "165582D78FF645FE81B048A1A109E2D4A7DE923F",
+      "accentColor": "44731E"
+    },
+    {
+      "webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=puppies&id=DF040FC18B24A482016AA54BDAB0034D238BC7CF&simid=608026973730703908",
+      "name": "Yellow Lab Puppies in San Diego | Labrador Retriever Puppies",
+      "thumbnailUrl": "https:\/\/tse1.mm.bing.net\/th?id=OIP.LHN9xP5mAWbVPJ-ys9eNdgHaHr&pid=Api",
+      "datePublished": "2018-12-24T21:31:00.0000000Z",
+      "isFamilyFriendly": true,
+      "contentUrl": "http:\/\/tenderoaklabradors.com\/wp-content\/uploads\/2014\/12\/MollyOrionsPups8WksOld_1.jpg",
+      "hostPageUrl": "http:\/\/tenderoaklabradors.com\/labrador-puppies-for-sale\/",
+      "contentSize": "738990 B",
+      "encodingFormat": "jpeg",
+      "hostPageDisplayUrl": "tenderoaklabradors.com\/labrador-puppies-for-sale",
+      "width": 1500,
+      "height": 1556,
+      "thumbnail": {
+        "width": 474,
+        "height": 491
+      },
+      "imageInsightsToken": "ccid_LHN9xP5m*mid_DF040FC18B24A482016AA54BDAB0034D238BC7CF*simid_608026973730703908*thid_OIP.LHN9xP5mAWbVPJ-ys9eNdgHaHr",
+      "insightsMetadata": {
+        "pagesIncludingCount": 3,
+        "availableSizesCount": 1
+      },
+      "imageId": "DF040FC18B24A482016AA54BDAB0034D238BC7CF",
+      "accentColor": "B41738"
+    },
+    {
+      "webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=puppies&id=3DCBAE55833267FE658086796AD9C9CC18E7177D&simid=608009274234373221",
+      "name": "micro teacup morkie puppy\" JaJa\" | iHeartTeacups",
+      "thumbnailUrl": "https:\/\/tse1.mm.bing.net\/th?id=OIP.FhWJqske6A775xn5GoTgagHaJZ&pid=Api",
+      "datePublished": "2018-08-20T21:16:00.0000000Z",
+      "isFamilyFriendly": true,
+      "contentUrl": "http:\/\/www.iheartteacups.com\/wp-content\/uploads\/2016\/03\/IMG_5423.jpg",
+      "hostPageUrl": "http:\/\/www.iheartteacups.com\/micro-teacup-morkie-puppy-puppy\/",
+      "contentSize": "341908 B",
+      "encodingFormat": "jpeg",
+      "hostPageDisplayUrl": "www.iheartteacups.com\/micro-teacup-morkie-puppy-puppy",
+      "width": 2211,
+      "height": 2804,
+      "thumbnail": {
+        "width": 474,
+        "height": 601
+      },
+      "imageInsightsToken": "ccid_FhWJqske*mid_3DCBAE55833267FE658086796AD9C9CC18E7177D*simid_608009274234373221*thid_OIP.FhWJqske6A775xn5GoTgagHaJZ",
+      "insightsMetadata": {
+        "pagesIncludingCount": 6,
+        "availableSizesCount": 1
+      },
+      "imageId": "3DCBAE55833267FE658086796AD9C9CC18E7177D",
+      "accentColor": "966835"
+    },
+    {
+      "webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=puppies&id=67BE3B099FADCBA60DD464BFA5F88582C8C7D3AB&simid=608046537335308835",
+      "name": "Puppies For Sale | Find Your Perfect Puppy at Greenfield ...",
+      "thumbnailUrl": "https:\/\/tse1.mm.bing.net\/th?id=OIP.o6LWUWKvF74gYIkgyjXnKgHaDY&pid=Api",
+      "datePublished": "2018-11-10T03:25:00.0000000Z",
+      "isFamilyFriendly": true,
+      "contentUrl": "https:\/\/gfp-2a3tnpzj.stackpathdns.com\/wp-content\/uploads\/2011\/05\/gfp-banner-beagle-slide-1600x730.jpg",
+      "hostPageUrl": "https:\/\/www.greenfieldpuppies.com\/",
+      "contentSize": "55113 B",
+      "encodingFormat": "jpeg",
+      "hostPageDisplayUrl": "https:\/\/www.greenfieldpuppies.com",
+      "width": 1600,
+      "height": 730,
+      "thumbnail": {
+        "width": 474,
+        "height": 216
+      },
+      "imageInsightsToken": "ccid_o6LWUWKv*mid_67BE3B099FADCBA60DD464BFA5F88582C8C7D3AB*simid_608046537335308835*thid_OIP.o6LWUWKvF74gYIkgyjXnKgHaDY",
+      "insightsMetadata": {
+        "pagesIncludingCount": 9,
+        "availableSizesCount": 2
+      },
+      "imageId": "67BE3B099FADCBA60DD464BFA5F88582C8C7D3AB",
+      "accentColor": "986234"
+    },
+    {
+      "webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=puppies&id=D3667BB639659510AA66A6524DBF7F4E44DEBBEA&simid=608019887063240163",
+      "name": "Photos: Celebrate National Puppy Day With 12 Adorable Puppies",
+      "thumbnailUrl": "https:\/\/tse3.mm.bing.net\/th?id=OIP.SfAiuU69lS_5h-a9NBbQwQHaEo&pid=Api",
+      "datePublished": "2018-03-23T09:09:00.0000000Z",
+      "isFamilyFriendly": true,
+      "contentUrl": "https:\/\/static.parade.com\/wp-content\/uploads\/2018\/03\/golden-puppy-life-national-geographic-ftr-1.jpg",
+      "hostPageUrl": "https:\/\/parade.com\/656669\/beckyhughes\/photos-celebrate-national-puppy-day-with-12-adorable-puppies\/",
+      "contentSize": "439605 B",
+      "encodingFormat": "jpeg",
+      "hostPageDisplayUrl": "https:\/\/parade.com\/656669\/beckyhughes\/photos-celebrate-national...",
+      "width": 1240,
+      "height": 775,
+      "thumbnail": {
+        "width": 474,
+        "height": 296
+      },
+      "imageInsightsToken": "ccid_SfAiuU69*mid_D3667BB639659510AA66A6524DBF7F4E44DEBBEA*simid_608019887063240163*thid_OIP.SfAiuU69lS!_5h-a9NBbQwQHaEo",
+      "insightsMetadata": {
+        "pagesIncludingCount": 54,
+        "availableSizesCount": 13
+      },
+      "imageId": "D3667BB639659510AA66A6524DBF7F4E44DEBBEA",
+      "accentColor": "B49A17"
+    },
+    {
+      "webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=puppies&id=FC9F050A4AE67803151289DC9C26076B0B4FEB13&simid=608010103176366908",
+      "name": "Maltese (Dog) - Puppies, Rescue, Pictures, Information ...",
+      "thumbnailUrl": "https:\/\/tse1.mm.bing.net\/th?id=OIP.bmFkt3SUhiY1ut8oVqfQzwHaHb&pid=Api",
+      "datePublished": "2018-05-16T21:51:00.0000000Z",
+      "isFamilyFriendly": true,
+      "contentUrl": "http:\/\/animalsbreeds.com\/wp-content\/uploads\/2014\/10\/Maltese-11.jpg",
+      "hostPageUrl": "http:\/\/animalsbreeds.com\/maltese\/",
+      "contentSize": "102164 B",
+      "encodingFormat": "jpeg",
+      "hostPageDisplayUrl": "animalsbreeds.com\/maltese",
+      "width": 1595,
+      "height": 1600,
+      "thumbnail": {
+        "width": 474,
+        "height": 475
+      },
+      "imageInsightsToken": "ccid_bmFkt3SU*mid_FC9F050A4AE67803151289DC9C26076B0B4FEB13*simid_608010103176366908*thid_OIP.bmFkt3SUhiY1ut8oVqfQzwHaHb",
+      "insightsMetadata": {
+        "pagesIncludingCount": 30,
+        "availableSizesCount": 11
+      },
+      "imageId": "FC9F050A4AE67803151289DC9C26076B0B4FEB13",
+      "accentColor": "775C4F"
+    },
+    {
+      "webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=puppies&id=B7BC13678F9B272C0EC39E000F1AC53607C93C28&simid=608050866680957331",
+      "name": "Cream Dachshund Puppies | Puppies Puppy",
+      "thumbnailUrl": "https:\/\/tse4.mm.bing.net\/th?id=OIP.pKrVpeuDgband08Qtuhi6QHaFW&pid=Api",
+      "datePublished": "2017-01-29T06:07:00.0000000Z",
+      "isFamilyFriendly": true,
+      "contentUrl": "http:\/\/www.pupsor.com\/wp-content\/uploads\/2016\/03\/groodle-puppies.jpg",
+      "hostPageUrl": "http:\/\/www.pupsor.com\/cream-dachshund-puppies-33301.html",
+      "contentSize": "124439 B",
+      "encodingFormat": "jpeg",
+      "hostPageDisplayUrl": "www.pupsor.com\/cream-dachshund-puppies-33301.html",
+      "width": 1024,
+      "height": 740,
+      "thumbnail": {
+        "width": 474,
+        "height": 342
+      },
+      "imageInsightsToken": "ccid_pKrVpeuD*mid_B7BC13678F9B272C0EC39E000F1AC53607C93C28*simid_608050866680957331*thid_OIP.pKrVpeuDgband08Qtuhi6QHaFW",
+      "insightsMetadata": {
+        "pagesIncludingCount": 5,
+        "availableSizesCount": 2
+      },
+      "imageId": "B7BC13678F9B272C0EC39E000F1AC53607C93C28",
+      "accentColor": "909536"
+    },
+    {
+      "webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=puppies&id=2D04B7F72A6528014FB6ED8406CBE0C7F61A2DF7&simid=608009493281310111",
+      "name": "Pembroke Welsh Corgis Info, Facts, Temperament, Puppies ...",
+      "thumbnailUrl": "https:\/\/tse4.mm.bing.net\/th?id=OIP.VubXXACl_ElNiiN7eI6VMgHaEo&pid=Api",
+      "datePublished": "2018-11-07T16:07:00.0000000Z",
+      "isFamilyFriendly": true,
+      "contentUrl": "https:\/\/www.101dogbreeds.com\/wp-content\/uploads\/2014\/10\/Pembroke-Welsh-Corgi-Puppies.jpg",
+      "hostPageUrl": "https:\/\/www.101dogbreeds.com\/pembroke-welsh-corgi.asp",
+      "contentSize": "442987 B",
+      "encodingFormat": "jpeg",
+      "hostPageDisplayUrl": "https:\/\/www.101dogbreeds.com\/pembroke-welsh-corgi.asp",
+      "width": 1920,
+      "height": 1200,
+      "thumbnail": {
+        "width": 474,
+        "height": 296
+      },
+      "imageInsightsToken": "ccid_VubXXACl*mid_2D04B7F72A6528014FB6ED8406CBE0C7F61A2DF7*simid_608009493281310111*thid_OIP.VubXXACl!_ElNiiN7eI6VMgHaEo",
+      "insightsMetadata": {
+        "pagesIncludingCount": 96,
+        "availableSizesCount": 51
+      },
+      "imageId": "2D04B7F72A6528014FB6ED8406CBE0C7F61A2DF7",
+      "accentColor": "986933"
+    },
+    {
+      "webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=puppies&id=97014C704311C349055E1177EDBE2FDA74E54E38&simid=608044471461416767",
+      "name": "Top Tips on How to Provide the Best Puppy Health Care",
+      "thumbnailUrl": "https:\/\/tse3.mm.bing.net\/th?id=OIP.9XeziC6YNoS8iof33WtwHQHaGN&pid=Api",
+      "datePublished": "2018-04-24T05:27:00.0000000Z",
+      "isFamilyFriendly": true,
+      "contentUrl": "http:\/\/www.usapetcover.com\/wp-content\/uploads\/2015\/08\/puppies-yawning.jpg",
+      "hostPageUrl": "http:\/\/www.usapetcover.com\/health-guides\/puppy-health-care\/",
+      "contentSize": "5007859 B",
+      "encodingFormat": "jpeg",
+      "hostPageDisplayUrl": "www.usapetcover.com\/health-guides\/puppy-health-care",
+      "width": 2840,
+      "height": 2384,
+      "thumbnail": {
+        "width": 474,
+        "height": 397
+      },
+      "imageInsightsToken": "ccid_9XeziC6Y*mid_97014C704311C349055E1177EDBE2FDA74E54E38*simid_608044471461416767*thid_OIP.9XeziC6YNoS8iof33WtwHQHaGN",
+      "insightsMetadata": {
+        "pagesIncludingCount": 3,
+        "availableSizesCount": 1
+      },
+      "imageId": "97014C704311C349055E1177EDBE2FDA74E54E38",
+      "accentColor": "A27129"
+    },
+    {
+      "webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=puppies&id=D49312BF694F402811FD14E013A5FFDC5D72924F&simid=608022700303058434",
+      "name": "AKC Breeder Alaskan Malamute Puppies Berlin Heights OH ...",
+      "thumbnailUrl": "https:\/\/tse1.mm.bing.net\/th?id=OIP.fiTquhdgCrtrvtY3t8mS4wHaG6&pid=Api",
+      "datePublished": "2019-01-02T21:34:00.0000000Z",
+      "isFamilyFriendly": true,
+      "contentUrl": "http:\/\/candyrock.net\/wp-content\/uploads\/2016\/04\/shiba-pups1-1.jpg",
+      "hostPageUrl": "http:\/\/candyrock.net\/",
+      "contentSize": "586651 B",
+      "encodingFormat": "jpeg",
+      "hostPageDisplayUrl": "candyrock.net",
+      "width": 1834,
+      "height": 1713,
+      "thumbnail": {
+        "width": 474,
+        "height": 442
+      },
+      "imageInsightsToken": "ccid_fiTquhdg*mid_D49312BF694F402811FD14E013A5FFDC5D72924F*simid_608022700303058434*thid_OIP.fiTquhdgCrtrvtY3t8mS4wHaG6",
+      "insightsMetadata": {
+        "pagesIncludingCount": 7,
+        "availableSizesCount": 2
+      },
+      "imageId": "D49312BF694F402811FD14E013A5FFDC5D72924F",
+      "accentColor": "4C5D30"
+    },
+    {
+      "webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=puppies&id=EDDFB721AAB581D6158F48ECA5533AA54B155F68&simid=608047263179080628",
+      "name": "Available Labradoodle Puppies | Mountain View Labradoodles",
+      "thumbnailUrl": "https:\/\/tse3.mm.bing.net\/th?id=OIP.OmHNdzaPJUpjm9hrqha38QHaE8&pid=Api",
+      "datePublished": "2018-12-04T22:09:00.0000000Z",
+      "isFamilyFriendly": true,
+      "contentUrl": "http:\/\/labradoodlesatmountainview.com\/wp-content\/uploads\/2017\/03\/IMG_1429.jpg",
+      "hostPageUrl": "http:\/\/labradoodlesatmountainview.com\/labradoodle-puppy-availability\/",
+      "contentSize": "8745258 B",
+      "encodingFormat": "jpeg",
+      "hostPageDisplayUrl": "labradoodlesatmountainview.com\/labradoodle-puppy-availability",
+      "width": 5184,
+      "height": 3456,
+      "thumbnail": {
+        "width": 474,
+        "height": 316
+      },
+      "imageInsightsToken": "ccid_OmHNdzaP*mid_EDDFB721AAB581D6158F48ECA5533AA54B155F68*simid_608047263179080628*thid_OIP.OmHNdzaPJUpjm9hrqha38QHaE8",
+      "insightsMetadata": {
+        "pagesIncludingCount": 4,
+        "availableSizesCount": 4
+      },
+      "imageId": "EDDFB721AAB581D6158F48ECA5533AA54B155F68",
+      "accentColor": "793F23"
+    },
+    {
+      "webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=puppies&id=67BE3B099FADCBA60DD4834F46C61B04B8DEDF84&simid=608028850634951429",
+      "name": "Puppies For Sale | Find Your Perfect Puppy at Greenfield ...",
+      "thumbnailUrl": "https:\/\/tse2.mm.bing.net\/th?id=OIP.Dku4NBOtoBFuItpEnHHkLQHaDY&pid=Api",
+      "datePublished": "2018-11-10T03:25:00.0000000Z",
+      "isFamilyFriendly": true,
+      "contentUrl": "https:\/\/gfp-2a3tnpzj.stackpathdns.com\/wp-content\/uploads\/2011\/05\/gfp-banner-jack-slide-1600x730.jpg",
+      "hostPageUrl": "https:\/\/www.greenfieldpuppies.com\/",
+      "contentSize": "48045 B",
+      "encodingFormat": "jpeg",
+      "hostPageDisplayUrl": "https:\/\/www.greenfieldpuppies.com",
+      "width": 1600,
+      "height": 730,
+      "thumbnail": {
+        "width": 474,
+        "height": 216
+      },
+      "imageInsightsToken": "ccid_Dku4NBOt*mid_67BE3B099FADCBA60DD4834F46C61B04B8DEDF84*simid_608028850634951429*thid_OIP.Dku4NBOtoBFuItpEnHHkLQHaDY",
+      "insightsMetadata": {
+        "pagesIncludingCount": 91,
+        "availableSizesCount": 65
+      },
+      "imageId": "67BE3B099FADCBA60DD4834F46C61B04B8DEDF84",
+      "accentColor": "4E5D1A"
+    },
+    {
+      "webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=puppies&id=24B9F6BD49FCD0DFF498283453F491F2AD7FB55B&simid=607991956911754427",
+      "name": "Teacup Malti Poo Puppy for sale | iHeartTeacups",
+      "thumbnailUrl": "https:\/\/tse1.mm.bing.net\/th?id=OIP.CB-BmEwnpdjv3j3HmVvY3AHaFx&pid=Api",
+      "datePublished": "2015-12-07T10:17:00.0000000Z",
+      "isFamilyFriendly": true,
+      "contentUrl": "http:\/\/www.iheartteacups.com\/wp-content\/uploads\/2015\/12\/IMG_0556.jpg",
+      "hostPageUrl": "http:\/\/www.iheartteacups.com\/teacup-malti-poo-puppy-for-sale\/",
+      "contentSize": "91108 B",
+      "encodingFormat": "jpeg",
+      "hostPageDisplayUrl": "www.iheartteacups.com\/teacup-malti-poo-puppy-for-sale",
+      "width": 1440,
+      "height": 1122,
+      "thumbnail": {
+        "width": 474,
+        "height": 369
+      },
+      "imageInsightsToken": "ccid_CB+BmEwn*mid_24B9F6BD49FCD0DFF498283453F491F2AD7FB55B*simid_607991956911754427*thid_OIP.CB-BmEwnpdjv3j3HmVvY3AHaFx",
+      "insightsMetadata": {
+        "pagesIncludingCount": 5,
+        "availableSizesCount": 1
+      },
+      "imageId": "24B9F6BD49FCD0DFF498283453F491F2AD7FB55B",
+      "accentColor": "7E452B"
+    },
+    {
+      "webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=puppies&id=7F2D11F920CF11B23975A4EE6378488D0E812CD6&simid=608004292049044672",
+      "name": "Wedding Ideas: Bridesmaids Carry Puppies Instead of ...",
+      "thumbnailUrl": "https:\/\/tse2.mm.bing.net\/th?id=OIP.MEFO58YI_hGp6OjDxbMkdAHaFj&pid=Api",
+      "datePublished": "2018-11-08T10:08:00.0000000Z",
+      "isFamilyFriendly": true,
+      "contentUrl": "https:\/\/timedotcom.files.wordpress.com\/2017\/04\/puppies-instead-of-bouquets-weddings.jpg?quality=85",
+      "hostPageUrl": "http:\/\/time.com\/4725601\/bride-puppies-bridesmaids\/",
+      "contentSize": "156127 B",
+      "encodingFormat": "jpeg",
+      "hostPageDisplayUrl": "time.com\/4725601\/bride-puppies-bridesmaids",
+      "width": 2000,
+      "height": 1499,
+      "thumbnail": {
+        "width": 474,
+        "height": 355
+      },
+      "imageInsightsToken": "ccid_MEFO58YI*mid_7F2D11F920CF11B23975A4EE6378488D0E812CD6*simid_608004292049044672*thid_OIP.MEFO58YI!_hGp6OjDxbMkdAHaFj",
+      "insightsMetadata": {
+        "pagesIncludingCount": 6,
+        "availableSizesCount": 8
+      },
+      "imageId": "7F2D11F920CF11B23975A4EE6378488D0E812CD6",
+      "accentColor": "2D839E"
+    },
+    {
+      "webSearchUrl": "https:\/\/www.bing.com\/images\/search?view=detailv2&FORM=OIIRPO&q=puppies&id=89F86D29A84CF56CD417EF363407D34EAA6EDEC0&simid=607987928244094507",
+      "name": "Puppies – Hungarian Vizsla Club of NSW",
+      "thumbnailUrl": "https:\/\/tse2.mm.bing.net\/th?id=OIP.EZtqhnVl5QPzYDYXAx-H-AHaDt&pid=Api",
+      "datePublished": "2013-08-10T06:04:00.0000000Z",
+      "isFamilyFriendly": true,
+      "contentUrl": "http:\/\/vizsla.org.au\/wp-content\/uploads\/2015\/07\/puppy_rogan-storie.jpg",
+      "hostPageUrl": "http:\/\/vizsla.org.au\/puppies\/",
+      "contentSize": "378295 B",
+      "encodingFormat": "jpeg",
+      "hostPageDisplayUrl": "vizsla.org.au\/puppies",
+      "width": 1500,
+      "height": 750,
+      "thumbnail": {
+        "width": 474,
+        "height": 237
+      },
+      "imageInsightsToken": "ccid_EZtqhnVl*mid_89F86D29A84CF56CD417EF363407D34EAA6EDEC0*simid_607987928244094507*thid_OIP.EZtqhnVl5QPzYDYXAx-H-AHaDt",
+      "insightsMetadata": {
+        "pagesIncludingCount": 7,
+        "availableSizesCount": 2
+      },
+      "imageId": "89F86D29A84CF56CD417EF363407D34EAA6EDEC0",
+      "accentColor": "A44327"
+    }
+  ]
+}

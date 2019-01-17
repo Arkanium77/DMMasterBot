@@ -4,7 +4,7 @@ import os
 from dicelogic import diceMaster
 from excuse import genEx
 from late import howLate
-from searcher import getRofl
+from searcher2 import getRofl
 import re
 from others.consts_tg import stickers as stck
 from flask import Flask, request
