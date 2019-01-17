@@ -72,7 +72,10 @@ def getLink(qu="cat"):
         # print(links)
         links.pop(0)
         # print (links)
-        return links[rnd(len(links))]
+        try:
+            return links[rnd(len(links))]
+        except ValueError:
+            return getRofl()
     else:
 
         print("Invalid Bing Search API subscription key!")
