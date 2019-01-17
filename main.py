@@ -57,9 +57,12 @@ def echo_all(message):
 
 def lMatch(message):
     lateR = re.compile(".*(опазд|опозд|задержу|задержим).*", re.MULTILINE | re.IGNORECASE)
-    if re.search(lateR, message.text) == None:
+    try:
+        if re.search(lateR, message.text) == None:
+            return False
+        return True
+    except ValueError:
         return False
-    return True
 
 
 @bot.message_handler(func=lMatch)
