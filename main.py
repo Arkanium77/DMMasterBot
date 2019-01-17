@@ -33,6 +33,7 @@ def handle_message(message):
 
 @bot.message_handler(regexp="/rofl.*")
 def handle_q(message):
+    print("ROFLTIME")
     s=message.text
     if s[:5]=="/rofl":
         if(len(s)>=7):
