@@ -73,7 +73,7 @@ def getLink(qu="cat"):
         links.pop(0)
         # print (links)
         try:
-            return links[rnd(len(links))]
+            return links[rnd(len(links)//2)]
         except ValueError:
             return getRofl()
     else:
