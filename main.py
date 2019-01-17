@@ -60,9 +60,11 @@ def lMatch(message):
     try:
         if re.search(lateR, message.text) == None:
             return False
-        return True
-    except ValueError:
+    except Exception:
         return False
+
+    return True
+
 
 
 @bot.message_handler(func=lMatch)
