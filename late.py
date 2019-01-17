@@ -42,6 +42,10 @@ def times(it, time):
 def trueTime(time):
     iit = maxTimeIndex(time)
     m = times(iit, time)
+    sec=m.pop()
+    m=m.reverse()
+    m.append(sec)
+    print("Reverse mas=",m)
     print(m)
     return m
 
