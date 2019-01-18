@@ -1,4 +1,4 @@
-stickers=[ #d20 stickers id. From 1 to 20
+d20=[ #d20 stickers id. From 1 to 20
     "CAADAgADQAADUqjXBObZIbrcPiffAg",
     "CAADAgADQQADUqjXBOWVF6c1Sa_2Ag",
     "CAADAgADQgADUqjXBPE1Ytq-pqdsAg",
@@ -19,4 +19,8 @@ stickers=[ #d20 stickers id. From 1 to 20
     "CAADAgADUQADUqjXBGmX-o9vmkGKAg",
     "CAADAgADUgADUqjXBISTGJXg9VVwAg",
     "CAADAgADUwADUqjXBC9tLj8RozK4Ag",
+]
+coin=[
+    "CAADAgADVAADUqjXBMz71bIdmgEhAg",
+    "CAADAgADVQADUqjXBGVDO3J4yuC9Ag"
 ]

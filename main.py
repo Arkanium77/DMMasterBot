@@ -6,7 +6,8 @@ from excuse import genEx
 from late import howLate
 from searcher2 import getRofl
 import re
-from others.consts_tg import stickers as stck
+from others.consts_tg import d20
+from others.consts_tg import coin
 from flask import Flask, request
 
 token = os.getenv("TOKEN")
@@ -97,8 +98,15 @@ def excuse(message):
 @bot.message_handler(commands=['throw'])
 def stickerDice(message):
     s=diceMaster("1d20")
-    bot.send_sticker(message.chat.id, stck[s[0]-1])
+    bot.send_sticker(message.chat.id, d20[s[0]-1])
 
+@bot.message_handler(commands=['flip'])
+def stickerCoin(message):
+    s=diceMaster("1d2")
+    if s[0]=="heads":
+        bot.send_sticker(message.chat.id, coin[0])
+    else:
+        bot.send_sticker(message.chat.id, coin[1])
 
 
 @bot.message_handler(commands=['late'])
