@@ -19,6 +19,8 @@ server = Flask(__name__)
 
 @bot.message_handler(regexp=diceR)
 def handle_message(message):
+    if isReply(message):
+        return
     s = message.text
     tst = re.sub(diceR, "!", s)
     if (tst == "!"):
@@ -34,6 +36,8 @@ def handle_message(message):
 
 @bot.message_handler(regexp="/rofl.*")
 def handle_q(message):
+    if isReply(message):
+        return
     print("ROFLTIME")
     s=message.text
     if s[:5]=="/rofl":
@@ -66,7 +70,10 @@ def lMatch(message):
 
     return True
 
-
+def isReply(message):
+    if message.forward_from!=None or message.forward_from_chat!=None:
+        return True
+    return False
 
 @bot.message_handler(func=lMatch)
 def latecatch(message):
@@ -92,16 +99,22 @@ def messBuilder(message, a):
 
 @bot.message_handler(commands=['excuse'])
 def excuse(message):
+    if isReply(message):
+        return
     s = genEx()
     bot.reply_to(message, s)
 
 @bot.message_handler(commands=['throw'])
 def stickerDice(message):
+    if isReply(message):
+        return
     s=diceMaster("1d20")
     bot.send_sticker(message.chat.id, d20[s[0]-1])
 
 @bot.message_handler(commands=['flip'])
 def stickerCoin(message):
+    if isReply(message):
+        return
     s=diceMaster("1d2")
     if s[0]=="heads":
         bot.send_sticker(message.chat.id, coin[0])
@@ -111,12 +124,16 @@ def stickerCoin(message):
 
 @bot.message_handler(commands=['late'])
 def late(message):
+    if isReply(message):
+        return
     s = howLate()
     bot.reply_to(message, s)
 
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
+    if isReply(message):
+        return
     print(message)
     str = ""
     if (message.from_user.language_code == "ru"):
@@ -153,12 +170,8 @@ def echo_all(message):
     print(message)
     if re.search(r"((ужасы войны)|(ужасывойны))", message.text, re.MULTILINE | re.IGNORECASE):
         bot.reply_to(message, "Ужасы войны, ужасы войны, ужасы войны...")
-    if message.text=="ya":
-        yaSearch(message)
-    pass
-
-#bot.send_sticker(chat_id=update.message.chat_id, sticker='CAADAgADOQADfyesDlKEqOOd72VKAg')
-def yaSearch(message):
+    if re.search(r"монет", message.text, re.MULTILINE | re.IGNORECASE):
+        bot.reply_to(message, "Монетка-монетка!")
     pass
 
 # apihelper.proxy = {'https': 'https://67.205.146.54:80'}
