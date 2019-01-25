@@ -170,7 +170,7 @@ def echo_all(message):
     print(message)
     if re.search(r"((ужасы войны)|(ужасывойны))", message.text, re.MULTILINE | re.IGNORECASE):
         bot.reply_to(message, "Ужасы войны, ужасы войны, ужасы войны...")
-    if re.search(r"монет", message.text, re.MULTILINE | re.IGNORECASE):
+    if re.search(r"монет|coin", message.text, re.MULTILINE | re.IGNORECASE):
         bot.reply_to(message, "Монетка-монетка!")
     pass
 
