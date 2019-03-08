@@ -8,4 +8,4 @@ rofles=(
 )
 
 def getRofl():
-    return str(rofles(rnd(len(rofles))))
+    return str(rofles[rnd(len(rofles))])

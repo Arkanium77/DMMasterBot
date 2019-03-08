@@ -183,13 +183,16 @@ def echo_all(message):
         bot.reply_to(message, "Монетка-монетка!")
     elif re.search(r"поздрав|грац|молодцы|молодец|молодцо", message.text, re.MULTILINE | re.IGNORECASE):
         grace(message)
-    elif re.search(r"манул|manul", message.text, re.MULTILINE | re.IGNORECASE):
+    elif re.search(r"манул|manul|м а н у л", message.text, re.MULTILINE | re.IGNORECASE):
         manul_migrate(message)
     pass
 
 def manul_migrate(message):
     id = message.chat.id
-    bot.send_message(id, "МИГРАЦИЯ МАНУЛОВ!")
+    if rnd(5)!=0:
+        bot.send_message(id, "МИГРАЦИЯ МАНУЛОВ!")
+    else:
+        bot.send_message(id, "М А Н У Л")
     for i in range(rnd(3,7)):
         bot.send_sticker(id,manul)
 
