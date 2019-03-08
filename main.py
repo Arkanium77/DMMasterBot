@@ -3,11 +3,15 @@ import telebot
 import os
 from dicelogic import diceMaster
 from excuse import genEx
+from triumf import getGrats
+from triumf import clean
 from late import howLate
 from searcher2 import getRofl
 import re
 from others.consts_tg import d20
 from others.consts_tg import coin
+from others.consts_tg import manul
+from random import randrange as rnd
 from flask import Flask, request
 
 token = os.getenv("TOKEN")
@@ -170,9 +174,29 @@ def echo_all(message):
     print(message)
     if re.search(r"((ужасы войны)|(ужасывойны))", message.text, re.MULTILINE | re.IGNORECASE):
         bot.reply_to(message, "Ужасы войны, ужасы войны, ужасы войны...")
-    if re.search(r"монет|coin", message.text, re.MULTILINE | re.IGNORECASE):
+    elif re.search(r"монет|coin|золот|серебрян|медн", message.text, re.MULTILINE | re.IGNORECASE):
         bot.reply_to(message, "Монетка-монетка!")
+    elif re.search(r"поздрав|грац|молодцы|молодец|молодцо", message.text, re.MULTILINE | re.IGNORECASE):
+        grace(message)
+    elif re.search(r"манул|manul", message.text, re.MULTILINE | re.IGNORECASE):
+        manul(message)
     pass
+
+def manul(message):
+    id = message.chat.id
+    for i in range(rnd(6)):
+        bot.send_sticker(id,manul)
+
+def grace(message):
+    if "re" in message.text:
+        clean()
+        return
+
+    id=message.chat.id
+    t=message.date
+    ms=getGrats(id,t)
+    bot.send_message(id, ms)
+
 
 # apihelper.proxy = {'https': 'https://67.205.146.54:80'}
 # apihelper.proxy = {'https': 'socks5://swcbbabh:aYEbh6q5gQ@bb8.vivalaresistance.info:3306'}
@@ -200,3 +224,6 @@ if __name__ == '__main__':
             print("BOOM")
             time.sleep(3)
     '''
+
+
+#pip freeze > requirements.txt
