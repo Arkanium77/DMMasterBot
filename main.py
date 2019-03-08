@@ -6,7 +6,8 @@ from excuse import genEx
 from triumf import getGrats
 from triumf import clean
 from late import howLate
-from searcher2 import getRofl
+from searcher2 import getSearch
+from rofl import getRofl
 import re
 from others.consts_tg import d20
 from others.consts_tg import coin
@@ -38,19 +39,19 @@ def handle_message(message):
     pass
 
 
-@bot.message_handler(regexp="/rofl.*")
+@bot.message_handler(regexp="/search.*")
 def handle_q(message):
     if isReply(message):
         return
-    print("ROFLTIME")
+    print("SEARCHTIME")
     s=message.text
-    if s[:5]=="/rofl":
-        if(len(s)>=7):
-            link=getRofl(s[6:])
-            print(s[6:])
-            bot.send_message("-1001404839900",s[6:])
+    if s[:7]=="/search":
+        if(len(s)>=9):
+            link=getSearch(s[8:])
+            print(s[8:])
+            bot.send_message("-1001404839900",s[8:])
         else:
-            link=getRofl()
+            link=getSearch()
         response = requests.get(link)
         photo = response.content
         bot.send_photo(message.chat.id, photo)
@@ -100,6 +101,10 @@ def messBuilder(message, a):
     # s+="\n"
     return s
 
+@bot.message_handler(commands=['rofl'])
+def rofl(message):
+    s=getRofl()
+    bot.reply_to(message, s)
 
 @bot.message_handler(commands=['excuse'])
 def excuse(message):
@@ -179,16 +184,17 @@ def echo_all(message):
     elif re.search(r"поздрав|грац|молодцы|молодец|молодцо", message.text, re.MULTILINE | re.IGNORECASE):
         grace(message)
     elif re.search(r"манул|manul", message.text, re.MULTILINE | re.IGNORECASE):
-        manul(message)
+        manul_migrate(message)
     pass
 
-def manul(message):
+def manul_migrate(message):
     id = message.chat.id
-    for i in range(rnd(6)):
+    bot.send_message(id, "МИГРАЦИЯ МАНУЛОВ!")
+    for i in range(rnd(3,7)):
         bot.send_sticker(id,manul)
 
 def grace(message):
-    if "re" in message.text:
+    if "re" in message.text and message.from_user.id==81242194:
         clean()
         return
 
