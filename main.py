@@ -188,13 +188,14 @@ def echo_all(message):
     pass
 
 def manul_migrate(message):
-    id = message.chat.id
-    if rnd(5)!=0:
-        bot.send_message(id, "МИГРАЦИЯ МАНУЛОВ!")
-    else:
-        bot.send_message(id, "М А Н У Л")
-    for i in range(rnd(3,7)):
-        bot.send_sticker(id,manul)
+    if rnd(3)==0:
+        id = message.chat.id
+        if rnd(5)!=0:
+            bot.send_message(id, "МИГРАЦИЯ МАНУЛОВ!")
+        else:
+            bot.send_message(id, "М А Н У Л")
+        for i in range(rnd(3,7)):
+            bot.send_sticker(id,manul)
 
 def grace(message):
     if "re" in message.text and message.from_user.id==81242194:
