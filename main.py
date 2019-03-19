@@ -138,6 +138,10 @@ def late(message):
     s = howLate()
     bot.reply_to(message, s)
 
+@bot.message_handler(commands=['search'])
+def searchcmd(message):
+    message.text=(message.text).replace("@DMMasterbot","")
+    handle_q(message)
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
