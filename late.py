@@ -55,11 +55,11 @@ def trueTime(time):
 def sEnd(c):
     c%=20
     s = ""
-    if c <= 1:
+    if c == 1:
         s += "у"
     elif c > 1 and c < 5:
         s += "ы"
-    elif c >= 5 and c < 21:
+    else:
         s += ""
     return "секунд" + s
 
