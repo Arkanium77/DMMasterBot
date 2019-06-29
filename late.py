@@ -53,12 +53,11 @@ def trueTime(time):
 
 
 def sEnd(c):
-    if c>50:
-        c%=20
+    if c>20:
         c%=10
     else:
         c%=20
-    
+
     s = ""
     if c == 1:
         s += "у"
@@ -70,40 +69,46 @@ def sEnd(c):
 
 
 def mEnd(c):
-    while c > 20:
-        c -= 20
+    if c > 20:
+        c %= 10
+    else:
+        c %= 20
     s = ""
     if c == 1:
         s += "уту"
     elif c > 1 and c < 5:
         s += "уты"
-    elif c >= 5 and c < 21:
+    else:
         s += "ут"
     return "мин" + s
 
 
 def hEnd(c):
-    while c > 20:
-        c -= 20
+    if c > 20:
+        c %= 10
+    else:
+        c %= 20
     s = ""
     if c == 1:
         s += ""
     elif c > 1 and c < 5:
         s += "а"
-    elif c >= 5 and c < 21:
+    else:
         s += "ов"
     return "час" + s
 
 
 def dEnd(c):
-    while c > 20:
-        c -= 20
+    if c > 20:
+        c %= 10
+    else:
+        c %= 20
     s = ""
     if c == 1:
         s += "день"
     elif c > 1 and c < 5:
         s += "дня"
-    elif c >= 5 and c < 21:
+    else:
         s += "дней"
     return s
 
@@ -116,7 +121,7 @@ def wEnd(c):
         s += "ю"
     elif c > 1 and c < 5:
         s += "и"
-    elif c >= 5 and c < 21:
+    else:
         s += "ь"
     return "недел" + s
 
