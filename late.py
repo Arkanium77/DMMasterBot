@@ -53,7 +53,12 @@ def trueTime(time):
 
 
 def sEnd(c):
-    c%=20
+    if c>50:
+        c%=20
+        c%=10
+    else:
+        c%=20
+    
     s = ""
     if c == 1:
         s += "у"
