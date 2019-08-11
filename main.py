@@ -177,6 +177,8 @@ def send_welcome(message):
 		"""
     bot.reply_to(message, str)
 
+
+"""
 @bot.message_handler(commands=['promo'])
 def iGetPromotion(message):
     id=None
@@ -186,6 +188,7 @@ def iGetPromotion(message):
         id=-1001118223309
     t=bot.promote_chat_member(id, 81242194, True, True, True, True, True, True, True, True)
     print(t)
+"""
 
 @bot.message_handler(func=lambda m: True)
 def echo_all(message):
