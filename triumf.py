@@ -54,7 +54,7 @@ def times(t):
 if __name__ == '__main__':
     #1546702082
     t=81242194
-    id="Член"
+    id="--"
     ms=getGrats(id,t)
     if ms!=None:
         print(ms)
